@@ -1,10 +1,12 @@
 import React from 'react';
-import Inicio from './Inicio';
+import Inicio from './components/Inicio';
+import Footer from './components/Footer';
 
 function App() {
   return ( 
-  <div className = "App" >
+  <div className="original">
     <Inicio/>
+    <Footer/>
     </div>
   );
 }
