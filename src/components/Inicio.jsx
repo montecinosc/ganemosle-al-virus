@@ -1,10 +1,12 @@
 import React from 'react'
-import iniciogav from './img/iniciogav.png'
+import iniciogav from '../img/iniciogav.png'
+
+
 
 function Inicio() {
     return (
         <div>
-             <img className="inicio" alt="gav" src={iniciogav}/>
+            <img className="inicio" alt="gav" src={iniciogav} />
         </div>
     )
 }
