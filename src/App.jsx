@@ -22,7 +22,6 @@ function App() {
             <PagCuatro />
           </Route>
         </Switch>
-
       </div>
     </Router>
 
