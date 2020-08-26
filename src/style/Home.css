@@ -3,71 +3,93 @@
     margin: 0;
 }
 
-#contenedorHome {
-    margin-left: 100px;
-    margin-right: 0px;
-}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;500;600;700&display=swap');
 
-img {
+
+.circulo {
     position: absolute;
-    width: 100%;
+    width: 35%;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
     margin: auto;
     z-index: 1;
-
 }
 
-#puma {
+.texto {
     position: absolute;
-    width: 300px;
+    width: 25%;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
     margin: auto;
-    z-index: 2;
-}
-
-.contenedorHome {
     z-index: 1;
-    background-repeat: no-repeat;
+    font-size: 90%;
+    text-align: center;
 }
-
 
 .celeste {
     background-color: #60C9F1;
     height: 250px;
-    width: 250px;
     margin-top: 5%;
+    border-radius: 7px;
 }
 
 .naranja {
     background-color: #FBA244;
     height: 250px;
-    width: 250px;
     margin-top: 5%;
-}
-
-.icono {
-    width: 20%;
-
+    border-radius: 7px;
 }
 
 p {
     display: flex;
-    align-self: flex-end;
-    font-size: 100%;
+    font-size: 120%;
+    font-family: 'Montserrat', sans-serif;
 }
 
-.derecha {
-    display: flex;
-    justify-content: center;
+.iconos {
+    width: 100px;
 }
 
-.izquierda {
-    display: flex;
+.iconosMascara {
+    width: 35%;
+}
 
+.bloque {
+
+    height: 300%;
+
+}
+
+.imgBloque {
+    width: 60%;
+    height: 60%;
+
+}
+
+button {
+    padding-top: 30px
+}
+
+.colorUno {
+    color: #572A99;
+    text-align: center;
+
+
+}
+
+.colorDos {
+    color: #FF9E3D;
+}
+
+.colorTres {
+    color: #137AC8;
+
+}
+
+.colorCuatro {
+    color: #D8695E
 }
