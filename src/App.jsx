@@ -9,6 +9,7 @@ import {
 } from "react-router-dom";
 import Home from './components/Home'
 import PagCuatro from './components/PagCuatro'
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -20,6 +21,9 @@ function App() {
           </Route>
           <Route path="/pagCuatro">
             <PagCuatro />
+          </Route>
+          <Route path="/footer">
+            <Footer />
           </Route>
         </Switch>
       </div>

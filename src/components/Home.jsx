@@ -73,8 +73,9 @@ const Home = () => {
                         <p>    Sigue las aventuras del escuadrón </p>
                     </button >
                 </div>
-            </div>
 
+            </div>
+            <Footer />
         </Fragment>
 
     );
