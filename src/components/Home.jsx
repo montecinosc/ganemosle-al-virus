@@ -24,9 +24,9 @@ const Home = () => {
     return (
         <Fragment>
 
-            <div className="container ">
+            <div className="container">
                 <div className="row bloque col  d-md-none .d-lg-block d-flex justify-content-center">
-                    <img src={puma} className="imgBloque "></img>
+                    <img src={puma} className="imgBloque"/>
 
                     <div className="colorUno">
                         <p className="colorUno">¡Hola! soy <span className="colorDos">_Puma Espuma </span>  </p>
@@ -36,7 +36,7 @@ const Home = () => {
                 </div>
                 <div className="row ">
                     <button className="naranja  col-xs-12 col-md-5  d-flex flex-column align-items-center">
-                        <img src={corona} className=" iconos" />
+                        <img src={corona} className=" iconos"/>
                         <p className=""> ¿Qué es el covid-19? </p>
 
                     </button >
@@ -44,13 +44,13 @@ const Home = () => {
 
                     </div>
                     <button className="celeste col-xs-12 col-md-5 d-flex flex-column align-items-center">
-                        <img src={mascara} className=" iconosMascara"></img>
+                        <img src={mascara} className="iconosMascara"/>
                         <p>¿Cómo cuidarnos?</p>
-                    </button >
+                    </button>
                 </div>
                 <div className="row ">
                     <div className="col d-none d-sm-block ">
-                        <img src={circuloSin} className="circulo"></img>
+                        <img src={circuloSin} className="circulo"/>
                         <div className="texto colorUno">
                             <p className="colorUno">¡Hola! soy <span className="colorDos">_Puma Espuma </span>  </p>
                             Te quiero invitar a descubrir qué es el
@@ -62,14 +62,14 @@ const Home = () => {
                 </div>
                 <div className="row">
                     <button className="celeste col-xs-12 col-md-5 d-flex flex-column align-items-center">
-                        <img src={jabon} className="iconos"></img>
+                        <img src={jabon} className="iconos"/>
                         <p> ¿Aprende jugando en casa junto a tu familia?  </p>
                     </button >
                     <div className="col d-none d-sm-block  col  col-md-2 ">
 
                     </div>
                     <button className="naranja  col-xs-12 col-md-5  d-flex flex-column align-items-center">
-                        <img src={guante} className="iconos"></img>
+                        <img src={guante} className="iconos"/>
                         <p>    Sigue las aventuras del escuadrón </p>
                     </button >
                 </div>

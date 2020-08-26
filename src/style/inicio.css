@@ -1,15 +1,15 @@
 .ini{
     background: url(../img/iniciogav.png);  
-    height: 106vh;  
+    height: 100vh;
     margin-top: -3em;
-    margin-left: -1em;
-} 
+    margin-left: -1em; 
+}  
 /* .pantalla{
     height: 100vh;
 } */
 .patrulla{
     width: 35%;
-    height: 45%; 
+    height: 42%; 
     margin-top: 15%;
     margin-left: 5%;
 }
@@ -33,6 +33,6 @@ h4{
     }
 .btn{
     background-color: #572A99;
-    margin-top: 28%;
+    top: 15%;
     margin-left: 65%;
 }    

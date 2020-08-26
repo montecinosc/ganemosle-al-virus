@@ -1,5 +1,4 @@
 import React from 'react'
-import iniciogav from '../img/iniciogav.png'
 import patrulla from '../img/patrulla.png'
 import '../style/inicio.css'
 import {Link} from 'react-router-dom'
@@ -13,12 +12,12 @@ import Footer from './Footer'
 
 function Inicio() {
     return (
-        <div>
+        <div className="container">
             <div className="ini">
              <div>
              <img className="patrulla" alt="patru" src={patrulla}/>
              </div>
-              <Link className="btn text-white btn-lg"  to ="/Home" exact>Entrar</Link>
+              <Link className="btn text-white btn-lg" to ="/Home" exact>Entrar</Link>
               <div>
               <h1>Ganémosle al virus con el </h1>
               <h1 className="dos">escuadron prevención</h1>
