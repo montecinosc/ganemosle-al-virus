@@ -1,4 +1,4 @@
 .divfooter{
-    height: 10vh;
-    border: 1px solid lawngreen;
+    background-attachment: fixed;
+    height: -2em;
 }
