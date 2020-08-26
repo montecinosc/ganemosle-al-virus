@@ -1,7 +1,7 @@
 import React from 'react'
 import iniciogav from '../img/iniciogav.png'
 import patrulla from '../img/patrulla.png'
-/* import '../estilos/inicio.css' */
+import '../style/inicio.css'
 import {Link} from 'react-router-dom'
 import Footer from './component/Footer'
 
