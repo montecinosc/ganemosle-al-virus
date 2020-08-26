@@ -1,8 +1,9 @@
 import React from 'react'
 import iniciogav from '../img/iniciogav.png'
 import patrulla from '../img/patrulla.png'
-import '../estilos/inicio.css'
-import {Link, withRouter} from 'react-router-dom'
+/* import '../estilos/inicio.css' */
+import {Link} from 'react-router-dom'
+import Footer from './component/Footer'
 
 
 /* const click = () => {
@@ -27,7 +28,7 @@ function Inicio() {
               <h2>Ganemosle al virus con el escuadron prevención</h2>
               <h5>!Aprendamos juntos de autocuidado!</h5>
               </div>
-              <Footer/>
+            <Footer/>
         </div>
     )
 }
