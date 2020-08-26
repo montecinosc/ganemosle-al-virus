@@ -1,5 +1,4 @@
 import React from 'react';
-<<<<<<< HEAD
 // import Inicio from './components/Inicio';
 import {
   BrowserRouter as Router,
@@ -30,17 +29,6 @@ function App() {
       </div>
     </Router>
 
-=======
-import Inicio from './components/Inicio';
-import Footer from './components/Footer';
-
-function App() {
-  return ( 
-  <div className="original">
-    <Inicio/>
-    <Footer/>
-    </div>
->>>>>>> hootie
   );
 }
 
