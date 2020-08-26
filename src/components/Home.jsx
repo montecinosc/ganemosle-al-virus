@@ -29,7 +29,7 @@ const Home = () => {
                     <img src={puma} className="imgBloque "></img>
 
                     <div className="colorUno">
-                        <p className="colorUno">¡Hola! soy <span className="colorDos">_Puma Espuma </span>  </p>
+                        <p className="colorUno">¡Hola! soy <span className="colorDos"> Puma Espuma </span>  </p>
                     Te quiero invitar a descubrir
                     qué es el coronavirus y cómo combatirlo junto
                        a mi escuadrón, Guantrini, To-Mask y Jabier Jabón  </div>

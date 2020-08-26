@@ -1,6 +1,6 @@
 import React from 'react'
 import '../style/pag3.css'
-import corona from '../img/fondocorona.png'
+//import corona from '../img/fondocorona.png'
 
 function PagTres() {
     return (
