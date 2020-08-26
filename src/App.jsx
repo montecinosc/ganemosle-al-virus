@@ -9,6 +9,8 @@ import {
 } from "react-router-dom";
 import Home from './components/Home'
 import PagCuatro from './components/PagCuatro'
+import Inicio from './components/Inicio'
+import PagTres from './components/PagTres';
 
 function App() {
   return (
@@ -20,6 +22,12 @@ function App() {
           </Route>
           <Route path="/pagCuatro">
             <PagCuatro />
+          </Route>
+          <Route path="/pagTres">
+            <PagTres />
+          </Route>
+          <Route path="/">
+            <Inicio />
           </Route>
         </Switch>
       </div>
