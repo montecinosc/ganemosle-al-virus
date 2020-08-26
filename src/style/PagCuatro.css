@@ -1,0 +1,21 @@
+.bloqueCeleste {
+
+    background-color: #72BAEC;
+    background: rgba(114, 186, 236, 0.4);
+    border-radius: 23px;
+}
+
+.bloqueMorado {
+    background-color: #A784C8;
+
+    border-radius: 46px;
+    height: 40%;
+    width: 70%;
+    margin-top: 20px;
+}
+
+.icono {
+    z-index: 1;
+    width: 20%;
+
+}
