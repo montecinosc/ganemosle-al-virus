@@ -52,7 +52,7 @@ const Home = () => {
                     <div className="col d-none d-sm-block ">
                         <img src={circuloSin} className="circulo"/>
                         <div className="texto colorUno">
-                            <p className="colorUno">¡Hola! soy <span className="colorDos">_Puma Espuma </span>  </p>
+                            <h3 className="colorUno">¡Hola! soy <span className="colorDos">_Puma Espuma </span>  </h3>
                             Te quiero invitar a descubrir qué es el
                             coronavirus y cómo combatirlo junto
                             a mi escuadrón, Guantrini, <span className="colorTres"> To-Mask </span>

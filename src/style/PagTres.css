@@ -1,7 +1,15 @@
 .corona{
     background: url(../img/fondocorona.png);
-    height: 109vh;
+    height: 100vh;
     width: 100%;
     background-repeat: no-repeat;
+  /*   background-attachment: fixed; */
+    margin-top: 5vh;
 
 } 
+.container{
+/*     z-index: 1; */
+}
+.virus{
+    margin-top: 40vh;
+}
