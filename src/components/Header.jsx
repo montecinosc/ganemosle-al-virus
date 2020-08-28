@@ -3,6 +3,7 @@ import "../style/header.css"
 import header from '../img/Header.png'
 import Boton from './Boton'
 
+
 function Header() {
     return (
         <div className="head">

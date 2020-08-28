@@ -23,13 +23,19 @@
     margin-top: 12%;
 }
 
-.icono {
+.iconoPuma {
     z-index: 1;
-    width: 20%;
+    width: 32%;
+    margin-left: 42%;
+    margin-top: 15%;
+}
+.iconoVerde{
+    
 }
 
 .head{
     width: 98%;
+    height: 11vh;
 }
 
 .mascarilla{
@@ -114,6 +120,16 @@
 .juegos{
     margin-top: 3%;
 }
-.demuestra{
+.demuestra, .protegerte{
     text-align: center;
+    width: 93%;   
+    font-weight: 500;
+}
+.footer{
+    width: 100%;
+    height: 5vh;
+}
+
+.aJugar{
+    margin-top: -98%;
 }
