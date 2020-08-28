@@ -3,40 +3,55 @@ import footer from '../img/footer.png'
 import '../style/PagCuatro.css'
 import puma from '../img/pumaEscudo.png'
 import corona from '../img/coronaVerde.png'
+import Header from '../components/Header'
+import mascara from '../img/mascara.png'
+import jabon from '../img/jabon.png'
+import Footer from '../components/Footer'
 
 function PagCuatro() {
     return (
         <Fragment>
-
+            <div className="d-none d-sm-block"><Header/></div>
             <div className="container">
                 <div className="row">
-                    <div className="col bloqueCeleste">
-                        <div>
-                            ¡Hola! Soy <TO-mask className="">Te vengo a contar 4 formas para entender el coronavirus</TO-mask>
+                    <div className="bloqueCeleste .col- col-xs-12 col-md-5  d-flex flex-column align-items-center">
+                    
+                        <div className="encabezado">
+                        <div className="masc"><img src={mascara} className="mascarilla"></img></div>
+                            <div className="tomask">
+                            
+                            ¡Hola! Soy <span className="toMask">To-mask.</span>
+                            <br></br>
+                            Te vengo a mostrar formas para detener el coronavirus
+                            </div>
                         </div>
-                        <p> Lavate las manos</p>
+                        <p className="lavate"> Lávate las manos</p>
                         <div> Usa agua y jabón, haz espuma. Hazlo durante 20
                         segundos y asegúrate de lavar ambos lados de las
                               manos y entre los dedos.</div>
-                        <p> Cubrete bien</p>
-                        <div>Al toser y estornudar tapa tu boca con el brazo. </div>
-                        <p>Se obediente a las indicaciones de tus padres  </p>
-                        <div>No des abrazos, besos, ni te acerques a los demas.
+                        <p className="cubrete"> Cúbrete bien</p>
+                        <div className="altoser">Al toser y estornudar tapa tu boca con el brazo. </div>
+                        <p className="seobediente">Se obediente a las indicaciones de tus padres  </p>
+                        <div className="nodes">No des abrazos, besos, ni te acerques a los demas.
                                    La distancia nos mantiene seguros. </div>
-                        <p>Usa una mascarilla</p>
-                        <div>Siempre que salgas de casa usa tu mascarilla
+                        <p className="usa">Usa una mascarilla</p>
+                        <div className="siempre">Siempre que salgas de casa usa tu mascarilla
                             tapando nariz y boca. ¡Disfrazarnos es genial!  </div>
-                        <div> ¡Siempre es divertido arrastrar los gérmenes con agua y jabon! </div>
+                        <div className="divertido"> ¡Siempre es divertido arrastrar los gérmenes con agua y jabón! 
+                        <div className="masc"><img src={jabon} className="jabon"></img></div>
+                        </div>
                     </div>
-                    <div className="col">
-                        <div className="row-2 bloqueMorado"> <p><img className="icono" src={puma} />  Demuestra di eres un guerrero del Escuadron Prevencion </p></div>
+                    <div className="juegos col-sm-12 col-md-5  d-flex flex-column align-items-center">
+                    
+                        <div className="bloqueMorado"> <img className="icono" src={puma} /> <p className="demuestra"> Demuestra si eres un guerrero del Escuadrón Prevención </p></div>
                         <div className="w-100"> </div>
-                        <div className="row-2 bloqueMorado"> <img className="icono" src={corona}></img>¿Y tú,puedes protegerte de mi ?
-                        Gana este desafio y demuestralo
+                        <div className="bloqueMorado"> <img className="icono" src={corona}></img>¿Y tú,puedes protegerte de mi ?
+                        Gana este desafío y demuestralo
                         </div>
                     </div>
                 </div>
             </div>
+            <Footer />
         </Fragment>
     )
 }

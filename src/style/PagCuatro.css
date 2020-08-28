@@ -1,21 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;500;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+*{
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 13px;
+    
+}
+
 .bloqueCeleste {
 
     background-color: #72BAEC;
     background: rgba(114, 186, 236, 0.4);
     border-radius: 23px;
+    margin-top: 5%;
 }
 
 .bloqueMorado {
     background-color: #A784C8;
-
     border-radius: 46px;
     height: 40%;
     width: 70%;
-    margin-top: 20px;
+    margin-top: 12%;
 }
 
 .icono {
     z-index: 1;
     width: 20%;
+}
 
+.head{
+    width: 98%;
+}
+
+.mascarilla{
+    width: 116%;
+    height: 122%;
+    margin-top: 6%;
+}
+.encabezado{
+    display: flex;
+    margin-top: 4%;
+    
+}
+
+.masc{
+    width: 80%;
+    height: 77%;
+}
+
+.tomask{
+    margin-left: 10%;
+    margin-top: 10%;
+    font-size: 14px;
+}
+
+.lavate{
+    font-size: 1em;
+    display: flex;
+    align-self: stretch;
+    font-weight: bold;
+   
+}
+.cubrete{
+    font-size: 1em;
+    display: flex;
+    align-self: stretch;
+    font-weight: bold; 
+    margin-top: 2%;
+}
+
+.usa{
+    font-size: 1em;
+    display: flex;
+    align-self: stretch;
+    font-weight: bold; 
+    margin-top: 2%;
+}
+
+.seobediente{
+    font-size: 1em;
+    display: flex;
+    align-self: stretch;
+    font-weight: bold;  
+    margin-top: 2%;
+}
+
+.toMask{
+    color: #137AC8;
+    font-weight: bold;
+    font-size: 1em;
+}
+.altoser{
+    align-self: stretch;
+    margin-top: -1%;
+}
+.nodes, .siempre{
+    margin-top: -1%; 
+}
+.divertido{
+    font-weight: bold;  
+    margin-top: 4%;
+    text-align: center;
+    width: 70%;
+    margin-bottom: 3%;
+}
+.jabon{
+    width: 30%;
+    margin-left: 12%;
+    margin-top: 6%;
+    
+}
+
+.juegos{
+    margin-top: 3%;
+}
+.demuestra{
+    text-align: center;
 }
