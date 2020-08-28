@@ -1,15 +1,23 @@
 .morado {
     background-color: #8351B1;
     height: 40px;
+    /*margin-left: -6%;*/
+    margin-top: 5%;
 }
 
 .celesteF {
     background-color: #60C9F1;
-    ;
     height: 40px;
+    margin-top: 5%;
+    margin-right: -6%;
 }
 
 .blanco {
     background-color: white;
     height: 40px;
+    margin-top: 5%;
+}
+
+.row {
+    margin: 0px;
 }
