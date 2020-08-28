@@ -36,7 +36,7 @@ const Home = () => {
                 </div>
                 <div className="row ">
                     <button className="naranja  col-xs-12 col-md-5  d-flex flex-column align-items-center">
-                        <img src={corona} className=" iconos"/>
+                        <img src={corona} className=" iconoCorona" />
                         <p className=""> ¿Qué es el covid-19? </p>
 
                     </button >
@@ -44,7 +44,7 @@ const Home = () => {
 
                     </div>
                     <button className="celeste col-xs-12 col-md-5 d-flex flex-column align-items-center">
-                        <img src={mascara} className="iconosMascara"/>
+                        <img src={mascara} className=" iconoMascara"></img>
                         <p>¿Cómo cuidarnos?</p>
                     </button>
                 </div>
@@ -52,7 +52,7 @@ const Home = () => {
                     <div className="col d-none d-sm-block ">
                         <img src={circuloSin} className="circulo"/>
                         <div className="texto colorUno">
-                            <h3 className="colorUno">¡Hola! soy <span className="colorDos">_Puma Espuma </span>  </h3>
+                            <p className="colorUno">¡Hola! soy <span className="colorDos">Puma Espuma </span>  </p>
                             Te quiero invitar a descubrir qué es el
                             coronavirus y cómo combatirlo junto
                             a mi escuadrón, Guantrini, <span className="colorTres"> To-Mask </span>
@@ -62,14 +62,14 @@ const Home = () => {
                 </div>
                 <div className="row">
                     <button className="celeste col-xs-12 col-md-5 d-flex flex-column align-items-center">
-                        <img src={jabon} className="iconos"/>
-                        <p> ¿Aprende jugando en casa junto a tu familia?  </p>
+                        <img src={jabon} className="iconoJabon"></img>
+                        <p className="prueba"> ¿Aprende jugando en casa junto a tu familia?  </p>
                     </button >
                     <div className="col d-none d-sm-block  col  col-md-2 ">
 
                     </div>
                     <button className="naranja  col-xs-12 col-md-5  d-flex flex-column align-items-center">
-                        <img src={guante} className="iconos"/>
+                        <img src={guante} className="iconoGuante"></img>
                         <p>    Sigue las aventuras del escuadrón </p>
                     </button >
                 </div>

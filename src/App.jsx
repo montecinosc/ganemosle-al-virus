@@ -12,6 +12,7 @@ import PagCuatro from './components/PagCuatro'
 import Inicio from './components/Inicio'
 import PagTres from './components/PagTres';
 import PagSeis from './components/PagSeis';
+import Quiz from './components/Quiz';
 
 function App() {
   return (
@@ -29,6 +30,9 @@ function App() {
           </Route>
           <Route path="/pagSeis">
             <PagSeis />
+          </Route>
+          <Route path="/quiz">
+            <Quiz />
           </Route>
           <Route path="/">
             <Inicio />
