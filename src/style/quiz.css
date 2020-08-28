@@ -28,6 +28,23 @@ input[type=radio] {
 
 }
 
+head {
+    width: 98%;
+}
+
 .mascaraQuiz {
     width: 20%;
+
+}
+
+.celesteF {
+    background-color: #60C9F1;
+    height: 40px;
+    margin-top: 8%;
+}
+
+.morado {
+    background-color: #8351B1;
+    height: 40px;
+    margin-top: 8%;
 }

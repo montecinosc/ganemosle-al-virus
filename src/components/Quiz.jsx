@@ -5,6 +5,7 @@ import { useState } from 'react'
 import buho from "../img/buho.png"
 import QuizDos from './QuizDos'
 import mascara from '../img/mascara.png'
+import Header from '../components/Header'
 const Swal = require('sweetalert2')
 
 function Quiz() {
@@ -49,6 +50,7 @@ function Quiz() {
 
     return (
         <Fragment>
+            <Header/>
             {mostrar === true ?
 
                 (<div className="contenedorMayor">
