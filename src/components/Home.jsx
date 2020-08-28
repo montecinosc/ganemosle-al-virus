@@ -31,7 +31,7 @@ const Home = () => {
           
             <div className="botones container">
                 <div className="row bloque col  d-md-none .d-lg-block d-flex justify-content-center">
-                    <img src={puma} className="imgBloque "></img>
+                    <img src={puma} className="imgBloque"/>
 
                     <div className="colorUno">
                         <p className="colorUno">¡Hola! soy <span className="colorDos"> &nbsp;Puma Espuma </span>  </p>
