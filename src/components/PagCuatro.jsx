@@ -43,15 +43,17 @@ function PagCuatro() {
                     </div>
                     <div className="juegos col-sm-12 col-md-5  d-flex flex-column align-items-center">
                     
-                        <div className="bloqueMorado"> <img className="icono" src={puma} /> <p className="demuestra"> Demuestra si eres un guerrero del Escuadrón Prevención </p></div>
+                        <div className="bloqueMorado"> <img className="iconoPuma" src={puma} /><p className="demuestra"> Demuestra si eres un guerrero del Escuadrón Prevención </p></div>
+                        <div><p className="aJugar">!A JUGAR!</p></div>
                         <div className="w-100"> </div>
-                        <div className="bloqueMorado"> <img className="icono" src={corona}></img>¿Y tú,puedes protegerte de mi ?
-                        Gana este desafío y demuestralo
+                        <div className="bloqueMorado"> <img className="iconoVerde" src={corona}></img><p className="protegerte">¿Y tú,puedes protegerte de mi ?
+                        Gana este desafío y demuestralo</p><p className="aJugarDos">!A JUGAR!</p>
                         </div>
                     </div>
                 </div>
             </div>
-            <Footer />
+           <Footer/>
+            
         </Fragment>
     )
 }

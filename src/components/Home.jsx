@@ -18,6 +18,7 @@ import circuloSin from "../img/circuloSinTexto.png"
 import Boton from "../components/Boton"
 import Footer from "./Footer"
 import Header from './Header';
+import HeaderCel from '../components/HeaderCel'
 
 const Home = () => {
     const click = () => {
@@ -26,7 +27,9 @@ const Home = () => {
     return (
         <Fragment>
           <div className="d-none d-sm-block"><Header/></div>
-            <div className="container ">
+          <div className="d-lg-none d-sm-block"><HeaderCel/></div>
+          
+            <div className="botones container">
                 <div className="row bloque col  d-md-none .d-lg-block d-flex justify-content-center">
                     <img src={puma} className="imgBloque"/>
 
