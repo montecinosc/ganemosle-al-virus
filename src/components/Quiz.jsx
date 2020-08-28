@@ -52,7 +52,7 @@ function Quiz() {
             {mostrar === true ?
 
                 (<div className="contenedorMayor">
-                    <img src={mascara} ></img>
+                    <img src={mascara} className="mascaraQuiz"></img>
                     <div className="contenedorTarjeta">
                         <div >
                             <p>¿Las manos deben ser lavadas con balsamo?</p>
