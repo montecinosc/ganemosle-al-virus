@@ -21,7 +21,7 @@ function QuizDos() {
         if (document.getElementById("p2r2").checked) {
             setPuntaje(puntaje++)
         }
-        if (document.getElementById("p2r2").checked) {
+        if (document.getElementById("p2r1").checked) {
             setPuntaje(puntaje++)
         }
         Swal.fire({
@@ -44,22 +44,23 @@ function QuizDos() {
                     <img src={mascara} ></img>
                     <div className="contenedorTarjeta">
                         <div >
-                            <p>debo lavar mis manos al menos 2 veces al</p>
+                            <p>Al toser o estornudar , debo tapar mi boca con las manos</p>
                             <div>
-                                <input type="radio" id="p2r1" name="animal5" value="1" />Verdadero
-                <input type="radio" id="p2r2" name="animal5" value="1" />Falso </div>
+                                <input type="radio" id="p2r1" name="quiz1" value="1" />Verdadero
+                <input type="radio" id="p2r2" name="quiz1" value="1" />Falso
+                 </div>
                         </div>
                         <div >
-                            <p>debo lavar mis manos al menos 2 veces al</p>
+                            <p>Debo lavar mis manos durante 5 segundo</p>
                             <div>
-                                <input type="radio" id="p2r1" name="animal6" value="1" />Verdadero
-                <input type="radio" id="p2r2" name="animal6" value="1" />Falso </div>
+                                <input type="radio" id="p2r1" name="quiz2" value="1" />Verdadero
+                <input type="radio" id="p2r2" name="quiz2" value="1" />Falso </div>
                         </div>
                         <div >
-                            <p>debo lavar mis manos al menos 2 veces al</p>
+                            <p>debo mantener distancia de otras personas</p>
                             <div>
-                                <input type="radio" id="p2r1" name="animal7" value="1" />Verdadero
-                <input type="radio" id="p2r2" name="animal7" value="1" />Falso </div>
+                                <input type="radio" id="p2r1" name="quiz3" value="1" />Verdadero
+                <input type="radio" id="p2r2" name="quiz3" value="1" />Falso </div>
                         </div>
 
                         <button onClick={prueba2} className="botonEnviar"  >Enviar</button>
@@ -68,22 +69,22 @@ function QuizDos() {
             ) : (<div className="contenedorMayor">
                 <img src={jabon} ></img>
                 <div className="contenedorTarjeta">
-                    <p>debo lavar mis manos al menos 2 veces al</p>
+                    <p>El virus vive dentro de una persona</p>
                     <div>
-                        <input type="radio" id="p2r1" name="animal5" value="1" />Verdadero
-                <input type="radio" id="p2r2" name="animal5" value="1" />Falso </div>
+                        <input type="radio" id="p2r1" name="quiz1" value="1" />Verdadero
+                <input type="radio" id="p2r2" name="quiz1" value="1" />Falso </div>
                 </div>
                 <div className="contenedorTarjeta">
-                    <p>debo lavar mis manos al menos 2 veces al</p>
+                    <p>El virus esta en todo el mundo</p>
                     <div>
-                        <input type="radio" id="p2r1" name="animal6" value="1" />Verdadero
-                <input type="radio" id="p2r2" name="animal6" value="1" />Falso </div>
+                        <input type="radio" id="p2r1" name="quiz2" value="1" />Verdadero
+                <input type="radio" id="p2r2" name="quiz2" value="1" />Falso </div>
                 </div>
                 <div className="contenedorTarjeta">
-                    <p>debo lavar mis manos al menos 2 veces al</p>
+                    <p>El virus no esta en mi colegio</p>
                     <div>
-                        <input type="radio" id="p2r1" name="animal7" value="1" />Verdadero
-                <input type="radio" id="p2r2" name="animal7" value="1" />Falso </div>
+                        <input type="radio" id="p2r1" name="quiz3" value="1" />Verdadero
+                <input type="radio" id="p2r2" name="quiz3" value="1" />Falso </div>
                 </div>
 
                 <button onClick={prueba2} className="botonEnviar"  >Enviar</button>

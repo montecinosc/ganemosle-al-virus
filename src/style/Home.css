@@ -74,7 +74,7 @@
 .imgBloque {
     width: 60%;
     height: 60%;
-
+    margin-top: 15%;
 }
 
 button {
@@ -108,11 +108,31 @@ button {
     color: #D8695E;
     font-weight: bold;
 }
-.row{
+/*.row{
     display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    margin-right: -15px;
-    margin-left: -15px;
-    margin-top: -15px;
+}*/
+.botones{
+margin-top:-1%;
+}
+
+@media screen and (max-width: 320px){
+    .naranja, .celeste{
+        height: 24vh;
+    }
+    .iconoCorona {
+        margin-top: -6%;
+    }
+    .iconoMascara {
+        margin-top: -4%;
+    }
+    .iconoJabon{
+        margin-top: -8%;
+        width: 20%;
+    }
+    .iconoGuante{
+        margin-top: -6%;
+        width: 15%;
+    }
 }

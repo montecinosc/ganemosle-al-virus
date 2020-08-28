@@ -14,8 +14,11 @@ function Quiz() {
     const [mostrar, setMostrar] = React.useState(true);
 
     const prueba = () => {
-        if (document.getElementById('p1r2').checked) {
+        if (document.getElementById('p1r1').checked) {
 
+            setPuntaje(puntaje++)
+        }
+        if (document.getElementById("p2r1").checked) {
             setPuntaje(puntaje++)
         }
         if (document.getElementById("p2r2").checked) {
@@ -50,28 +53,34 @@ function Quiz() {
 
     return (
         <Fragment>
-            <Header/>
+            <Header />
             {mostrar === true ?
 
                 (<div className="contenedorMayor">
                     <img src={mascara} className="mascaraQuiz"></img>
                     <div className="contenedorTarjeta">
                         <div >
-                            <p>¿Las manos deben ser lavadas con balsamo?</p>
+                            <p>Las manos deben lavar con agua y jabon</p>
                             <div className="contenedorInput">
                                 <input type="radio" id="p1r1" name="animal1" value="1" />Verdadero
-                            <input type="radio" id="p1r2" name="animal1" value="1" />Farso
+                            <input type="radio" id="p1r2" name="animal1" value="1" />Falso
                             </div>
                         </div>
                         <div >
-                            <p>No puedo salir ala calle porque hay un virus llamado Covid-19</p>
-                            <input type="radio" id="p2r1" name="animal2" value="1" />Falso
-                    <input type="radio" id="p2r2" name="animal2" value="1" />Verdadero
+                            <p>El CoronaVirus es un chiquitito</p>
+                            <input type="radio" id="p2r1" name="animal2" value="1" />Verdadero
+                    <input type="radio" id="p2r2" name="animal2" value="1" />Falso
                  </div>
                         <div >
-                            <p>debo lavar mis manos al menos 6 veces al</p>
-                            <input type="radio" id="p2r1" name="animal3" value="1" />Falso
-                    <input type="radio" id="p2r2" name="animal3" value="1" />Verdadero
+                            <p>Podemos salir a la calle sin mascarilla</p>
+                            <input type="radio" id="p2r1" name="animal3" value="1" />Verdadero
+                    <input type="radio" id="p2r2" name="animal3" value="1" />Falso
+                 </div>
+                        <div>
+                            <p>El virus no se contagia al abrazar a una persona </p>
+                            <input type="radio" id="p2r1" name="animal3" value="1" />Verdadero
+                    <input type="radio" id="p2r2" name="animal3" value="1" />Falso
+
                  </div>
 
                     </div>
