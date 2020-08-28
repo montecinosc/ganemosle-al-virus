@@ -5,8 +5,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;500;600;700&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
-
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 
 .circulo {
@@ -47,8 +45,8 @@
     border-radius: 7px;
 }
 
-p {
-    display: flex;
+.covid, .cuidarnos, .aprende, .sigue{
+    /*display: flex;*/
     font-size: 120%;
     font-family: 'Montserrat', sans-serif;
     font-weight: normal;
@@ -61,7 +59,8 @@ p {
 }
 
 .iconoMascara {
-    width: 35%;
+    width: 38%;
+    margin-top: 4%;
 }
 
 .iconoGuante {
@@ -89,6 +88,10 @@ button {
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
 }
+.guantrini{
+    color:#8E64B7;
+    font-weight: bold;
+}
 
 .colorDos {
     color: #FF9E3D;
@@ -104,4 +107,12 @@ button {
 .colorCuatro {
     color: #D8695E;
     font-weight: bold;
+}
+.row{
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    margin-top: -15px;
 }

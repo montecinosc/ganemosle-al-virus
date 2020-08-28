@@ -27,8 +27,21 @@ input[type=radio] {
     font-size: 120%;
 
 }
+head{
+    width: 98%;
+}
 
 img {
     width: 20%;
-    height: ;
+    
+}
+.celesteF {
+    background-color: #60C9F1;
+    height: 40px;
+    margin-top: 8%;
+}
+.morado {
+    background-color: #8351B1;
+    height: 40px;
+    margin-top: 8%;
 }

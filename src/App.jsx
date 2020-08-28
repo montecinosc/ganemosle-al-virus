@@ -12,6 +12,7 @@ import PagCuatro from './components/PagCuatro'
 import Inicio from './components/Inicio'
 import PagTres from './components/PagTres';
 import Quiz from './components/Quiz'
+import Footer from './components/Footer'
 
 function App() {
   return (
@@ -35,7 +36,9 @@ function App() {
           </Route>
         </Switch>
       </div>
+
     </Router>
+    
 
   );
 }
