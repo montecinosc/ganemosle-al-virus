@@ -87,6 +87,7 @@ button {
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
+    font-size: 1em;
 }
 .guantrini{
     color:#8E64B7;
@@ -96,12 +97,13 @@ button {
 .colorDos {
     color: #FF9E3D;
     font-weight: bold;
+    font-size: 1em;
 }
+
 
 .colorTres {
     color: #137AC8;
     font-weight: bold;
-
 }
 
 .colorCuatro {

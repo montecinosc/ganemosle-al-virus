@@ -21,6 +21,15 @@
     height: 40%;
     width: 70%;
     margin-top: 12%;
+    display: flex;
+    align-self: center;
+}
+.bloqueMoradoCorona{
+    background-color: #A784C8;
+    border-radius: 46px;
+    height: 40%;
+    width: 70%;
+    margin-top: 12%;
 }
 
 .iconoPuma {
