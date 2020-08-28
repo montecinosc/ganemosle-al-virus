@@ -2,7 +2,7 @@ import React from 'react'
 import patrulla from '../img/patrulla.png'
 import '../style/inicio.css'
 import {Link} from 'react-router-dom'
-import Footer from './Footer'
+/* import Footer from './Footer' */
 
 
 function Inicio() {

@@ -2,10 +2,12 @@ import React from 'react'
 import guantrini from '../img/guante.png'
 import '../style/PagSeis.css'
 import Footer from "./Footer"
+import Header from "./Header"
 
 function PagSeis() {
     return (
         <div>
+            <Header/>
             <div className="container mt-5">
         
                 <div className="row">
@@ -26,7 +28,7 @@ function PagSeis() {
                         </div>
                         </div>
         </div>
-        <Footer/>
+       <Footer/>
         </div>
         
     )
