@@ -49,7 +49,6 @@
 .cuidarnos,
 .aprende,
 .sigue {
-    /*display: flex;*/
     font-size: 120%;
     font-family: 'Montserrat', sans-serif;
     font-weight: normal;
@@ -92,6 +91,7 @@ button {
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
+    font-size: 1em;
 }
 
 .guantrini {
@@ -102,12 +102,13 @@ button {
 .colorDos {
     color: #FF9E3D;
     font-weight: bold;
+    font-size: 1em;
 }
+
 
 .colorTres {
     color: #137AC8;
     font-weight: bold;
-
 }
 
 .colorCuatro {
@@ -115,11 +116,6 @@ button {
     font-weight: bold;
 }
 
-/*.row{
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-}*/
 .botones {
     margin-top: -1%;
 }
@@ -133,6 +129,7 @@ button {
     .naranja,
     .celeste {
         height: 24vh;
+
     }
 
     .iconoCorona {
@@ -151,5 +148,22 @@ button {
     .iconoGuante {
         margin-top: -6%;
         width: 15%;
+    }
+
+    .botonesHome {
+        margin: 0%;
+    }
+
+    .botonesDos {
+        margin: 0%;
+    }
+
+    .bloque {
+        margin: 0%;
+        margin-top: -3%;
+    }
+
+    .colorUno {
+        margin-top: 2%;
     }
 }

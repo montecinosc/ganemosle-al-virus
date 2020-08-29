@@ -40,7 +40,7 @@ const Home = () => {
                        a mi escuadrón, <span className="guantrini">Guantrini</span>, <span className="colorTres">To-Mask </span> y <span className="colorCuatro">Jabier Jabón</span></div>
                 </div>
                 <div className="row ">
-                    <Link className="naranja  col-xs-12 col-md-5  d-flex flex-column align-items-center " to="./">
+                    <Link className="naranja  col-xs-12 col-md-5  d-flex flex-column align-items-center " to="./pagTres">
                         <img src={corona} className=" iconoCorona" />
                         <p className="covid"> ¿Qué es el covid-19? </p>
 
@@ -67,7 +67,7 @@ const Home = () => {
                     </div>
                 </div>
                 <div className="row">
-                    <Link className="celeste col-xs-12 col-md-5 d-flex flex-column align-items-center" to="./quiz">
+                    <Link className="celeste col-xs-12 col-md-5 d-flex flex-column align-items-center" to="./pagCinco">
                         <img src={jabon} className="iconoJabon"></img>
                         <p className="aprende"> ¿Aprende jugando en casa junto a tu familia?  </p>
                     </Link >

@@ -6,21 +6,27 @@ import Header from '../components/Header'
 import mascara from '../img/mascara.png'
 import jabon from '../img/jabon.png'
 import Footer from '../components/Footer'
+import HeaderCel from '../components/HeaderCel'
+import {
+    BrowserRouter as Router,
+    Link,
+} from "react-router-dom";
 
 function PagCuatro() {
     return (
         <Fragment>
-            <div className="d-none d-sm-block"><Header/></div>
+            <div className="d-none d-sm-block"><Header /></div>
+            <div className="d-lg-none d-sm-block"><HeaderCel /></div>
             <div className="container">
-                <div className="row">
+                <div className="instrucciones row">
                     <div className="bloqueCeleste .col- col-xs-12 col-md-5  d-flex flex-column align-items-center">
-                    
+
                         <div className="encabezado">
-                        <div className="masc"><img src={mascara} className="mascarilla"></img></div>
+                            <div className="masc"><img src={mascara} className="mascarilla"></img></div>
                             <div className="tomask">
-                            
-                            ¡Hola! Soy <span className="toMask">To-mask.</span>
-                            <br></br>
+
+                                ¡Hola! Soy <span className="toMask">To-mask.</span>
+                                <br></br>
                             Te vengo a mostrar formas para detener el coronavirus
                             </div>
                         </div>
@@ -36,26 +42,44 @@ function PagCuatro() {
                         <p className="usa">Usa una mascarilla</p>
                         <div className="siempre">Siempre que salgas de casa usa tu mascarilla
                             tapando nariz y boca. ¡Disfrazarnos es genial!  </div>
-                        <div className="divertido"> ¡Siempre es divertido arrastrar los gérmenes con agua y jabón! 
+                        <div className="divertido"> ¡Siempre es divertido arrastrar los gérmenes con agua y jabón!
                         <div className="masc"><img src={jabon} className="jabon"></img></div>
                         </div>
                     </div>
                     <div className="juegos col-sm-12 col-md-5  d-flex flex-column align-items-center">
-                    
-                        <div className="bloqueMorado">
-                             <img className="iconoPuma" src={puma} />
-                             <p className="demuestra"> Demuestra si eres un guerrero del Escuadrón Prevención </p>
+
+                        <div className="bloqueMorado justify-content-center">
+                            <div className="pumaEspumas">
+                                <img className="iconoPuma" src={puma} width="100" />
+                            </div>
+                            <div className="prevencion">
+                                <p className="demuestra" > Demuestra si eres un guerrero del Escuadrón Prevención </p>
+                            </div>
+
+                            <div className="textJugar">
+                                <p className="aJugar">!A JUGAR!</p>
+                            </div>
+
                         </div>
-                        <div><p className="aJugar">!A JUGAR!</p></div>
                         <div className="w-100"> </div>
-                        <div className="bloqueMorado"> <img className="iconoVerde" src={corona}></img><p className="protegerte">¿Y tú,puedes protegerte de mi ?
-                        Gana este desafío y demuestralo</p><p className="aJugarDos">!A JUGAR!</p>
+                        <div className="bloqueCorona justify-content-center">
+                            <div className="imCorona">
+                                <img className="iconoVerde" src={corona} width="100"></img>
+                            </div>
+                            <div className="parrafoDos">
+                                <p className="protegerte">¿Y tú,puedes protegerte de mi ?
+                        Gana este desafío y demuestralo</p>
+                            </div>
+                            <div className="vamosDos">
+                                <Link className="aJugarDos" to="./quiz">!A JUGAR! </Link>
+                            </div>
+
                         </div>
                     </div>
                 </div>
             </div>
-           <Footer/>
-            
+            <Footer />
+
         </Fragment>
     )
 }
