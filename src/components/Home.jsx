@@ -31,7 +31,7 @@ const Home = () => {
           
             <div className="botones container">
                 <div className="row bloque col  d-md-none .d-lg-block d-flex justify-content-center">
-                    <img src={puma} className="imgBloque "></img>
+                    <img src={puma} className="imgBloque"/>
 
                     <div className="colorUno">
                         <p className="colorUno">¡Hola! soy <span className="colorDos"> &nbsp;Puma Espuma </span>  </p>
@@ -39,7 +39,7 @@ const Home = () => {
                     qué es el coronavirus y cómo combatirlo junto
                        a mi escuadrón, <span className="guantrini">Guantrini</span>, <span className="colorTres">To-Mask </span> y <span className="colorCuatro">Jabier Jabón</span></div>
                 </div>
-                <div className="row ">
+                <div className="botonesHome row">
                     <button className="naranja  col-xs-12 col-md-5  d-flex flex-column align-items-center">
                         <img src={corona} className=" iconoCorona" />
                         <p className="covid"> ¿Qué es el covid-19? </p>
@@ -66,7 +66,7 @@ const Home = () => {
                         </div>
                     </div>
                 </div>
-                <div className="row">
+                <div className="botonesDos row">
                     <button className="celeste col-xs-12 col-md-5 d-flex flex-column align-items-center">
                         <img src={jabon} className="iconoJabon"></img>
                         <p className="aprende"> ¿Aprende jugando en casa junto a tu familia?  </p>

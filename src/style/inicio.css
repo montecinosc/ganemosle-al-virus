@@ -1,38 +1,47 @@
 .ini{
     background: url(../img/iniciogav.png);  
-    height: 106vh;  
-    margin-top: -3em;
-    margin-left: -1em;
-} 
+    height: 100vh;
+    width: 100vw;
+ 
+}  
+.patrulla{
+   margin-top: 40vh;
+/*    width: 50%;
+   height: 50%; */
+}
 /* .pantalla{
     height: 100vh;
 } */
-.patrulla{
-    width: 35%;
-    height: 45%; 
-    margin-top: 15%;
-    margin-left: 5%;
+.letras{
+    margin-top: 32vh;
+}
+.col-md-8.offset-md.patrulla{
+    width: 50%;
+    height: 50%;
+    vertical-align: middle;
+   
 }
 h1{
     position: absolute;
-    left: 53%;
-    top: 30%;
+    /* left: 53%;
+    top: 30%; */
     color: #572A99;
 }
 .dos{
     position: absolute;
-    left: 55%;
-    top: 35%;
+   /*  left: 55%;
+    top: 35%; */
     color: #572A99;
 }
 h4{
     position: absolute;
-    left: 55%;
-    top:45%;
+   /*  left: 55%;
+    top:45%; */
     color: #FA8102;
     }
 .btn{
     background-color: #572A99;
-    margin-top: 28%;
-    margin-left: 65%;
+    border-radius: 48px;
+  /*   top: 15%;
+    margin-left: 65%; */
 }    

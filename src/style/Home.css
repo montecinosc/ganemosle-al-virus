@@ -46,7 +46,6 @@
 }
 
 .covid, .cuidarnos, .aprende, .sigue{
-    /*display: flex;*/
     font-size: 120%;
     font-family: 'Montserrat', sans-serif;
     font-weight: normal;
@@ -122,6 +121,7 @@ margin-top:-1%;
 @media screen and (max-width: 320px){
     .naranja, .celeste{
         height: 24vh;
+        
     }
     .iconoCorona {
         margin-top: -6%;
@@ -136,5 +136,18 @@ margin-top:-1%;
     .iconoGuante{
         margin-top: -6%;
         width: 15%;
+    }
+    .botonesHome{
+        margin: 0%;
+    }
+    .botonesDos{
+        margin: 0%;
+    }
+    .bloque{
+        margin: 0%;
+        margin-top: -3%;
+    }
+    .colorUno{
+        margin-top: 2%;
     }
 }

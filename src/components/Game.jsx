@@ -3,7 +3,7 @@ import React, { Fragment } from 'react'
 function Game() {
 
     var cartas = new Array( 
-        {nombre: '1', seleccion: false}, {nombre: '2', seleccion: false}, 
+        {nombre: {}, seleccion: false}, {nombre: '2', seleccion: false}, 
         {nombre: '3', seleccion: false}, {nombre: '4', seleccion: false}, 
         {nombre: '5', seleccion: false}, {nombre: '6', seleccion: false}, 
         {nombre: '7', seleccion: false}, {nombre: '8', seleccion: false}, 

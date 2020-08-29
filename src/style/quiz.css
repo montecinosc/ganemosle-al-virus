@@ -27,19 +27,22 @@ input[type=radio] {
     font-size: 120%;
 
 }
-head{
+
+head {
     width: 98%;
 }
 
-img {
+.mascaraQuiz {
     width: 20%;
-    
+
 }
+
 .celesteF {
     background-color: #60C9F1;
     height: 40px;
     margin-top: 8%;
 }
+
 .morado {
     background-color: #8351B1;
     height: 40px;

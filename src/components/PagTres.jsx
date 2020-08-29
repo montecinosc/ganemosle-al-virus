@@ -1,15 +1,14 @@
 import React from 'react'
-import '../style/pag3.css'
-import corona from '../img/fondocorona.png'
+import '../style/PagTres.css'
+import corona from '../img/fondoyletra.png' 
 
 function PagTres() {
     return (
-        <div className="corona">
-            {/* <div>
-             <img className="virus" alt="patru" src={corona}/>
-             </div> */}
-            <h5>Soy un virus muy chiquitito y aunque no me puedas ver, estoy en muchas partes, 
-                y me gusta compartir con muchas personas.</h5>
+      <div>
+        <div className="corona fondo">
+          
+          <img width="100%"  className="virus" alt="coro" src={corona} />  
+        </div>
         </div>
     )
 }
