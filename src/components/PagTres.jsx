@@ -6,6 +6,7 @@ import Header from "./Header"
 import HeaderCel from '../components/HeaderCel'
 import PagTresRes from '../components/PagTresRes'
 
+
 function PagTres() {
     return (
       <div> 

@@ -4,7 +4,7 @@ import footer from '../img/footer.png'
 function Footer() {
     return (
         <div className="footer mt-5">
-            <img className="footer" alt="foot" src={footer}/>
+            <img className="footer" alt="foot" src={footer} />
         </div>
     )
-} export default Footer
+} export default Footer 

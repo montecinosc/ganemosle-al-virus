@@ -1,47 +1,36 @@
 .ini{
     background: url(../img/iniciogav.png);  
-    height: 100vh;
+    height: 110vh;
     width: 100vw;
- 
 }  
+
 .patrulla{
-   margin-top: 40vh;
-/*    width: 50%;
-   height: 50%; */
+   margin-top: 40%;
 }
-/* .pantalla{
-    height: 100vh;
-} */
+
 .letras{
-    margin-top: 32vh;
+    margin-top: 20%;
 }
-.col-md-8.offset-md.patrulla{
-    width: 50%;
-    height: 50%;
-    vertical-align: middle;
-   
-}
+
 h1{
     position: absolute;
-    /* left: 53%;
-    top: 30%; */
     color: #572A99;
 }
 .dos{
     position: absolute;
-   /*  left: 55%;
-    top: 35%; */
     color: #572A99;
 }
 h4{
     position: absolute;
-   /*  left: 55%;
-    top:45%; */
     color: #FA8102;
     }
 .btn{
     background-color: #572A99;
     border-radius: 48px;
-  /*   top: 15%;
-    margin-left: 65%; */
-}    
+}  
+@media screen and (max-width: 320px){
+    .patrulla{
+        margin-top: 24%;
+     }
+}  
+

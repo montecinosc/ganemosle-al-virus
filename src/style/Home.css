@@ -45,10 +45,15 @@
     border-radius: 7px;
 }
 
-.covid, .cuidarnos, .aprende, .sigue{
+.covid,
+.cuidarnos,
+.aprende,
+.sigue {
     font-size: 120%;
     font-family: 'Montserrat', sans-serif;
     font-weight: normal;
+    text-decoration: none;
+    color: black;
 
 }
 
@@ -88,8 +93,9 @@ button {
     font-weight: bold;
     font-size: 1em;
 }
-.guantrini{
-    color:#8E64B7;
+
+.guantrini {
+    color: #8E64B7;
     font-weight: bold;
 }
 
@@ -109,45 +115,55 @@ button {
     color: #D8695E;
     font-weight: bold;
 }
-/*.row{
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-}*/
-.botones{
-margin-top:-1%;
+
+.botones {
+    margin-top: -1%;
 }
 
-@media screen and (max-width: 320px){
-    .naranja, .celeste{
+.click {
+    text-decoration: none;
+}
+
+@media screen and (max-width: 320px) {
+
+    .naranja,
+    .celeste {
         height: 24vh;
-        
+
     }
+
     .iconoCorona {
         margin-top: -6%;
     }
+
     .iconoMascara {
         margin-top: -4%;
     }
-    .iconoJabon{
+
+    .iconoJabon {
         margin-top: -8%;
         width: 20%;
     }
-    .iconoGuante{
+
+    .iconoGuante {
         margin-top: -6%;
         width: 15%;
     }
-    .botonesHome{
+
+    .botonesHome {
         margin: 0%;
     }
-    .botonesDos{
+
+    .botonesDos {
         margin: 0%;
     }
-    .bloque{
+
+    .bloque {
         margin: 0%;
         margin-top: -3%;
     }
-    .colorUno{
+
+    .colorUno {
         margin-top: 2%;
     }
 }
