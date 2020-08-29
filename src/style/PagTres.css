@@ -1,3 +1,9 @@
 .virus{
-
+    height: 70%;
+    width: 100vw;
+    z-index: -1;
+    background-color: #FF9E3D;
+    }
+.colorFondo{
+    background-color: #FF9E3D;
 }
