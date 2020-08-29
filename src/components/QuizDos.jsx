@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react'
 
 import "../style/quiz.css"
-import mascara from "../img/puma.png"
+import pumaEscudo from "../img/pumaEscudo.png"
 import jabon from "../img/jabon.png"
 const Swal = require('sweetalert2');
 //import QuizTres from "./QuizTres"
@@ -14,7 +14,29 @@ function QuizDos() {
     let [puntajeDos, setPuntajeDos] = React.useState(0);
 
     const [segunda, setSegunda] = React.useState();
-    const prueba2 = () => {
+    const quiz2 = () => {
+        if (document.getElementById("p2r2").checked) {
+            setPuntaje(puntaje++)
+        }
+        if (document.getElementById("p2r2").checked) {
+            setPuntaje(puntaje++)
+        }
+        if (document.getElementById("p2r1").checked) {
+            setPuntaje(puntaje++)
+        }
+        Swal.fire({
+            title: 'Lo lograste!',
+            text: 'Pasaste a la 3ra etapa del quiz Hottie',
+            imageUrl: 'https://t1.ea.ltmcdn.com/es/images/7/0/0/buhos_24007_1_600.jpg',
+            imageWidth: 400,
+            imageHeight: 200,
+            imageAlt: 'Custom image',
+        })
+        console.log("puntaje 2", puntaje)
+        setMostrar(false)
+
+    }
+    const quiz3 = () => {
         if (document.getElementById("p2r2").checked) {
             setPuntaje(puntaje++)
         }
@@ -41,7 +63,7 @@ function QuizDos() {
         <Fragment>
             {mostrar === true ? (
                 <div className="contenedorMayor">
-                    <img src={mascara} ></img>
+                    <img src={pumaEscudo} className="imagenQuiz" />
                     <div className="contenedorTarjeta">
                         <div >
                             <p>Al toser o estornudar , debo tapar mi boca con las manos</p>
@@ -62,12 +84,12 @@ function QuizDos() {
                                 <input type="radio" id="p2r1" name="quiz3" value="1" />Verdadero
                 <input type="radio" id="p2r2" name="quiz3" value="1" />Falso </div>
                         </div>
-
-                        <button onClick={prueba2} className="botonEnviar"  >Enviar</button>
                     </div>
+                    <button onClick={quiz2} className="botonEnviar"  >Enviar</button>
+
                 </div>
             ) : (<div className="contenedorMayor">
-                <img src={jabon} ></img>
+                <img src={jabon} className="imagenQuiz" />
                 <div className="contenedorTarjeta">
                     <p>El virus vive dentro de una persona</p>
                     <div>
@@ -87,7 +109,7 @@ function QuizDos() {
                 <input type="radio" id="p2r2" name="quiz3" value="1" />Falso </div>
                 </div>
 
-                <button onClick={prueba2} className="botonEnviar"  >Enviar</button>
+                <button onClick={quiz3} className="botonEnviar"  >Enviar</button>
             </div>)
             }
         </Fragment >
