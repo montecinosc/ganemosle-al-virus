@@ -1,6 +1,17 @@
 .videoss{
  margin-left: 13%;
-}
+} 
 .colors{
     color: #572A99;
 }
+.guante{
+    width: 60%;
+}
+
+@media screen and (max-width: 320px){
+
+    .videoss{
+        margin-left: 6%;
+       } 
+}
+

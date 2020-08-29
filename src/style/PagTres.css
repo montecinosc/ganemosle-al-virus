@@ -1,3 +1,11 @@
 .virus{
-
+height: 70%;
+width: 100%;
+z-index: -1;
 }
+/* .fondo{
+    background-image: url(../img/fondoyletra4.png);
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+} */
