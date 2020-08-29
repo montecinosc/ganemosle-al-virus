@@ -1,5 +1,4 @@
 import React, { Fragment } from 'react'
-import footer from '../img/footer.png'
 import '../style/PagCuatro.css'
 import puma from '../img/pumaEscudo.png'
 import corona from '../img/coronaVerde.png'
@@ -58,8 +57,6 @@ function PagCuatro() {
                         </div>
                         
                         </div>
-                        
-                        
                         <div className="w-100"> </div>
                         <div className="bloqueCorona justify-content-center">
                              <div className="imCorona">
