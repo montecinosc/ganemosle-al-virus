@@ -12,25 +12,24 @@
     background-color: #72BAEC;
     background: rgba(114, 186, 236, 0.4);
     border-radius: 23px;
-    margin-top: 5%;
+    margin-top: 4%;
+    margin-left: 8%;
 }
 
-.bloqueMorado {
+.bloqueMorado, .bloqueCorona {
     background-color: #A784C8;
     border-radius: 46px;
     height: 40%;
     width: 70%;
     margin-top: 12%;
+    display: flex;
+    align-self: center;
+    box-shadow: 0px 14px 6px rgba(0, 0, 0, 0.25);
 }
 
-.iconoPuma {
-    z-index: 1;
-    width: 32%;
-    margin-left: 42%;
-    margin-top: 15%;
-}
-.iconoVerde{
-    
+.imCorona{
+    margin-left: 32%;
+    margin-top: 3%;
 }
 
 .head{
@@ -118,12 +117,27 @@
 }
 
 .juegos{
-    margin-top: 3%;
+    margin-top: 2%;
+    margin-left: 3%;
 }
-.demuestra, .protegerte{
+.demuestra{
     text-align: center;
-    width: 93%;   
+    width: 118%;
     font-weight: 500;
+    margin-top: 53%;
+    margin-left: -6%;
+}
+
+.protegerte{
+    text-align: center;
+    width: 118%;
+    font-weight: 500;
+    margin-top: 63%;
+    margin-left: 3%;
+}
+.parrafoDos{
+    margin-top: 3%;
+    margin-left: -54%;
 }
 .footer{
     width: 100%;
@@ -131,5 +145,87 @@
 }
 
 .aJugar{
-    margin-top: -98%;
+    margin-top: -59%;
+    margin-left: -166%;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+.aJugarDos{
+    margin-left: -166%;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+.pumaEspumas{
+    margin-left: 37%;
+    margin-top: 6%;
+}
+.prevencion{
+    margin-top: 18%;
+    margin-left: -49%;
+}
+
+.textJugar{
+    margin-top: 75%;
+    display: flex;
+    text-align: center;
+    align-self: center;
+}
+.vamosDos{
+    margin-top: 64%;
+}
+@media screen and (max-width: 320px){
+    .bloqueCeleste{
+        margin: 3%;
+    }
+    
+    .mascarilla{
+        width: 123%;
+        height: 116%;
+}
+.tomask{
+    margin-top: 1%;
+    font-size: 1em;
+}
+.divertido {
+    width: 100%;
+}
+.jabon{
+    margin-left: 25%;
+}
+.bloqueMorado, .bloqueCorona{
+    width: 103%;
+    margin: 1%;
+    margin-left: -3%;
+    height: 48vh;
+}
+.pumaEspumas{
+    margin-top: 6%;
+    margin-left: 35%;
+}
+.demuestra{
+    margin-top: 59%;
+    margin-left: -11%;
+}
+.aJugar{
+    margin-left: -154%;
+}
+.textJugar{
+    margin-left: -9%;
+    margin-top: 88%;
+}
+.w-100{
+    margin-top: 8%;
+}
+.protegerte{
+    width: 122%;
+    margin-top: 73%;
+    margin-left: 1%;
+}
+.aJugarDos{
+    margin-left: -149%;
+    margin-top: 39%;
+}
+.instrucciones{
+    margin-top: 9%;
+}
 }
