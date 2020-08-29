@@ -60,26 +60,26 @@ function Quiz() {
                     <img src={mascara} className="mascaraQuiz"></img>
                     <div className="contenedorTarjeta">
                         <div >
-                            <p>Las manos deben lavar con agua y jabon</p>
+                            <p className="textoQuiz">Las manos deben lavar con agua y jabon</p>
                             <div className="contenedorInput">
-                                <input type="radio" id="p1r1" name="animal1" value="1" />Verdadero
-                            <input type="radio" id="p1r2" name="animal1" value="1" />Falso
+                                <input type="radio" id="p1r1" name="quiz1" value="1" />Verdadero
+                            <input type="radio" id="p1r2" name="quiz1" value="1" />Falso
                             </div>
                         </div>
                         <div >
                             <p>El CoronaVirus es un chiquitito</p>
-                            <input type="radio" id="p2r1" name="animal2" value="1" />Verdadero
-                    <input type="radio" id="p2r2" name="animal2" value="1" />Falso
+                            <input type="radio" id="p2r1" name="quiz2" value="1" />Verdadero
+                    <input type="radio" id="p2r2" name="quiz2" value="1" />Falso
                  </div>
                         <div >
                             <p>Podemos salir a la calle sin mascarilla</p>
-                            <input type="radio" id="p2r1" name="animal3" value="1" />Verdadero
-                    <input type="radio" id="p2r2" name="animal3" value="1" />Falso
+                            <input type="radio" id="p2r1" name="quiz3" value="1" />Verdadero
+                    <input type="radio" id="p2r2" name="quiz3" value="1" />Falso
                  </div>
                         <div>
                             <p>El virus no se contagia al abrazar a una persona </p>
-                            <input type="radio" id="p2r1" name="animal3" value="1" />Verdadero
-                    <input type="radio" id="p2r2" name="animal3" value="1" />Falso
+                            <input type="radio" id="p2r1" name="quiz4" value="1" />Verdadero
+                    <input type="radio" id="p2r2" name="quiz4" value="1" />Falso
 
                  </div>
 

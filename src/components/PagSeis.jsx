@@ -18,9 +18,8 @@ function PagSeis() {
                             <br/>
                             <h5>Te invito a conocer todas nuestras aventuras y 
                                 así resolver todas las actividades y desafíos.</h5>
-                            <br/>
-                            <h3 className="mt-3 bold">¡Únete a el Escuadrón Prevención y juntos combatamos el Coronavirus!</h3>
-                     
+                            <h3 className="mt-3">¡Únete a el Escuadrón Prevención y juntos combatamos el Coronavirus!</h3>
+
                         <img className="ml-5 mt-3 guante" alt="patru" src={guantrini}/>
                         
                     </div>

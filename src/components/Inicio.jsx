@@ -5,6 +5,7 @@ import {Link} from 'react-router-dom'
 import Footer from './Footer'
 
 
+
 function Inicio() {
     return (
         <div>
@@ -24,7 +25,6 @@ function Inicio() {
                         <br/>
                         <Link className="col-md-4 offset-md-6 btn text-white btn-lg" to ="/Home" exact>Entrar</Link>
                     </div>
-             
                 </div>
             </div>
         </div>
