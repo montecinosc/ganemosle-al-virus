@@ -60,7 +60,7 @@ function Quiz() {
                     <img src={mascara} className="mascaraQuiz"></img>
                     <div className="contenedorTarjeta">
                         <div >
-                            <p>Las manos deben lavar con agua y jabon</p>
+                            <p className="textoQuiz">Las manos deben lavar con agua y jabon</p>
                             <div className="contenedorInput">
                                 <input type="radio" id="p1r1" name="quiz1" value="1" />Verdadero
                             <input type="radio" id="p1r2" name="quiz1" value="1" />Falso

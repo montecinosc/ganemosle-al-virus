@@ -1,6 +1,6 @@
 import React from 'react'
 import "../style/header.css"
-import header from '../img/Header.png'
+import header from '../img/Header 1.png'
 import Boton from './Boton'
 
 
