@@ -14,6 +14,7 @@ import PagTres from './components/PagTres';
 import PagSeis from './components/PagSeis';
 import Quiz from './components/Quiz';
 import Footer from './components/Footer'
+import PagCinco from './components/PagCinco';
 
 function App() {
   return (
@@ -31,6 +32,9 @@ function App() {
           </Route>
           <Route path="/pagSeis">
             <PagSeis />
+          </Route>
+          <Route path="/pagCinco">
+            <PagCinco />
           </Route>
           <Route path="/quiz">
             <Quiz />

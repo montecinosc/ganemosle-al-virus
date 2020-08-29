@@ -1,5 +1,4 @@
 import React, { Fragment } from 'react'
-import footer from '../img/footer.png'
 import '../style/PagCuatro.css'
 import puma from '../img/pumaEscudo.png'
 import corona from '../img/coronaVerde.png'
@@ -43,7 +42,10 @@ function PagCuatro() {
                     </div>
                     <div className="juegos col-sm-12 col-md-5  d-flex flex-column align-items-center">
                     
-                        <div className="bloqueMorado"> <img className="iconoPuma" src={puma} /><p className="demuestra"> Demuestra si eres un guerrero del Escuadrón Prevención </p></div>
+                        <div className="bloqueMorado">
+                             <img className="iconoPuma" src={puma} />
+                             <p className="demuestra"> Demuestra si eres un guerrero del Escuadrón Prevención </p>
+                        </div>
                         <div><p className="aJugar">!A JUGAR!</p></div>
                         <div className="w-100"> </div>
                         <div className="bloqueMorado"> <img className="iconoVerde" src={corona}></img><p className="protegerte">¿Y tú,puedes protegerte de mi ?
