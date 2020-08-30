@@ -60,6 +60,7 @@
 .iconoCorona,
 .iconoJabon {
     width: 25%;
+    margin-top: 10%;
 }
 
 .iconoMascara {
@@ -69,6 +70,7 @@
 
 .iconoGuante {
     width: 20%;
+    margin-top: 8%;
 }
 
 .icono .bloque {
@@ -133,20 +135,20 @@ button {
     }
 
     .iconoCorona {
-        margin-top: -6%;
+        margin-top: 3%;
     }
 
     .iconoMascara {
-        margin-top: -4%;
+        margin-top: 6%;
     }
 
     .iconoJabon {
-        margin-top: -8%;
-        width: 20%;
+        margin-top: 4%;
+        width: 19%;
     }
 
     .iconoGuante {
-        margin-top: -6%;
+        margin-top: 6%;
         width: 15%;
     }
 
@@ -160,10 +162,22 @@ button {
 
     .bloque {
         margin: 0%;
-        margin-top: -3%;
+        margin-top: -7%;
     }
 
     .colorUno {
         margin-top: 2%;
+    }
+
+    .aprende{
+        width: 75%;
+        text-align: center;
+    }
+
+    .sigue{
+        text-align: center;
+    }
+    .botones {
+       
     }
 }

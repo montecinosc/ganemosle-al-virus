@@ -2,10 +2,21 @@
     height: 70%;
     width: 100vw;
     z-index: -1;
-    background-color: #FF9E3D;
     }
-
+.footer{
+    width: 100%;
+}    
+@media screen and (max-width: 320px){
 .colorFondo{
     background-color: #FF9E3D;
+    width: 113%;
+}
+.virus{
+
 }
 
+.footer {
+    width: 100%;
+    
+}
+}
