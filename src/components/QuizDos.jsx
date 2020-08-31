@@ -66,20 +66,21 @@ function QuizDos() {
                     <img src={pumaEscudo} className="imagenQuiz" />
                     <div className="contenedorTarjeta">
                         <div >
-                            <p>Al toser o estornudar , debo tapar mi boca con las manos</p>
+
+                            <p className="textoQuiz" >Al toser o estornudar , debo tapar mi boca con las manos</p>
                             <div>
                                 <input type="radio" id="p2r1" name="quiz1" value="1" />Verdadero
                 <input type="radio" id="p2r2" name="quiz1" value="1" />Falso
                  </div>
                         </div>
                         <div >
-                            <p>Debo lavar mis manos durante 5 segundo</p>
+                            <p className="textoQuiz">Debo lavar mis manos durante 5 segundo</p>
                             <div>
                                 <input type="radio" id="p2r1" name="quiz2" value="1" />Verdadero
                 <input type="radio" id="p2r2" name="quiz2" value="1" />Falso </div>
                         </div>
                         <div >
-                            <p>debo mantener distancia de otras personas</p>
+                            <p className="textoQuiz">debo mantener distancia de otras personas</p>
                             <div>
                                 <input type="radio" id="p2r1" name="quiz3" value="1" />Verdadero
                 <input type="radio" id="p2r2" name="quiz3" value="1" />Falso </div>
@@ -91,26 +92,30 @@ function QuizDos() {
             ) : (<div className="contenedorMayor">
                 <img src={jabon} className="imagenQuiz" />
                 <div className="contenedorTarjeta">
-                    <p>El virus vive dentro de una persona</p>
-                    <div>
-                        <input type="radio" id="p2r1" name="quiz1" value="1" />Verdadero
-                <input type="radio" id="p2r2" name="quiz1" value="1" />Falso </div>
-                </div>
-                <div className="contenedorTarjeta">
-                    <p>El virus esta en todo el mundo</p>
-                    <div>
-                        <input type="radio" id="p2r1" name="quiz2" value="1" />Verdadero
+                    <div>  <p className="textoQuiz">El virus vive dentro de una persona</p>
+                        <div>
+                            <input type="radio" id="p2r1" name="quiz1" value="1" />Verdadero
+                <input type="radio" id="p2r2" name="quiz1" value="1" />Falso </div> </div>
+
+
+                    <div >
+                        <p className="textoQuiz">El virus esta en todo el mundo</p>
+                        <div>
+                            <input type="radio" id="p2r1" name="quiz2" value="1" />Verdadero
                 <input type="radio" id="p2r2" name="quiz2" value="1" />Falso </div>
-                </div>
-                <div className="contenedorTarjeta">
-                    <p>El virus no esta en mi colegio</p>
-                    <div>
-                        <input type="radio" id="p2r1" name="quiz3" value="1" />Verdadero
-                <input type="radio" id="p2r2" name="quiz3" value="1" />Falso </div>
+                    </div>
+                    <div >
+                        <p className="textoQuiz">El virus no esta en mi colegio</p>
+                        <div>
+                            <input type="radio" id="p2r1" name="quiz3" value="1" />Verdadero
+                <input type="radio" id="p2r2" name="quiz3" value="1" />Falso
+                 </div>
+                    </div>
                 </div>
 
                 <button onClick={quiz3} className="botonEnviar"  >Enviar</button>
-            </div>)
+            </div>
+                )
             }
         </Fragment >
     )
