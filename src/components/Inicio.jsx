@@ -8,7 +8,6 @@ import Footer from './Footer'
 
 function Inicio() {
     return (
-        <div>
         <div className="ini" >
             <div className="container ">
                 <div className="row">
@@ -27,9 +26,9 @@ function Inicio() {
                     </div>
                 </div>
             </div>
+            <Footer/>
         </div>
-           <Footer/>
-           </div>
+         
     )
 }
 

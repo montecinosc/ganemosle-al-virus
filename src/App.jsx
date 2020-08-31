@@ -15,6 +15,7 @@ import PagSeis from './components/PagSeis';
 import Quiz from './components/Quiz';
 import Footer from './components/Footer'
 import PagCinco from './components/PagCinco';
+import Game from './components/Game';
 
 function App() {
   return (
@@ -38,6 +39,9 @@ function App() {
           </Route>
           <Route path="/quiz">
             <Quiz />
+          </Route>
+          <Route path="/Game">
+            <Game />
           </Route>
           <Route path="/">
             <Inicio />
