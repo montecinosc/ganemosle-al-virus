@@ -4,14 +4,58 @@
 
 .colors{
     color: #572A99;
+    font-weight: bold;
+    font-size: 1em;
+}
+.unete{
+    font-size: 1.3em;
+    text-align: center;
+    font-weight: bold;
+    
 }
 .guante{
     width: 60%;
+    margin-left: 20%;
+    margin-top: 5%;
 }
+.teInvito{
+    margin-top: 4%;
+}
+.contenedorVideos{
+    margin-left: 6%;
 
+}
 @media screen and (max-width: 320px){
 
     .videoss{
-        margin-left: 6%;
+        margin: -8%;
+        margin-top: 3%;
        } 
+
+    .guante{
+        margin-top: -244%;
+        margin-left: 13%;
+
+    }
+    .textoGuantrini{
+        margin-top: 86%;
+    font-size: 1.5em;
+    width: 100%;
+    margin-left: -2%;
+}
+   
+    .teInvito{
+        margin-top: 7%;
+        width: 116%;
+        margin-left: -17%;
+        text-align: center;
+        font-size: 1.2em;
+    }
+    .unete{
+        font-size: 1.2em;
+        text-align: center;
+        margin-left: -16%;
+        width: 116%;
+    }
+
 }

@@ -1,3 +1,8 @@
 .headerCel{
     width: 100vw;
 }
+@media screen and (max-width: 320px){
+    .headerCel{
+        width: 100vw;
+    }
+}
