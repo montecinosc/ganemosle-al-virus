@@ -67,17 +67,17 @@ function Quiz() {
                             </div>
                         </div>
                         <div >
-                            <p>El CoronaVirus es un chiquitito</p>
+                            <p className="textoQuiz">El CoronaVirus es un chiquitito</p>
                             <input type="radio" id="p2r1" name="quiz2" value="1" />Verdadero
                     <input type="radio" id="p2r2" name="quiz2" value="1" />Falso
                  </div>
                         <div >
-                            <p>Podemos salir a la calle sin mascarilla</p>
+                            <p className="textoQuiz">Podemos salir a la calle sin mascarilla</p>
                             <input type="radio" id="p2r1" name="quiz3" value="1" />Verdadero
                     <input type="radio" id="p2r2" name="quiz3" value="1" />Falso
                  </div>
                         <div>
-                            <p>El virus no se contagia al abrazar a una persona </p>
+                            <p className="textoQuiz">El virus no se contagia al abrazar a una persona </p>
                             <input type="radio" id="p2r1" name="quiz4" value="1" />Verdadero
                     <input type="radio" id="p2r2" name="quiz4" value="1" />Falso
 
