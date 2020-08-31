@@ -56,36 +56,37 @@ function Quiz() {
             <Header />
             {mostrar === true ?
 
-                (<div className="contenedorMayor">
-                    <img src={mascara} className="mascaraQuiz"></img>
-                    <div className="contenedorTarjeta">
-                        <div >
-                            <p className="textoQuiz">Las manos deben lavar con agua y jabon</p>
-                            <div className="contenedorInput">
-                                <input type="radio" id="p1r1" name="quiz1" value="1" />Verdadero
+                (
+                    <div className="contenedorMayor">
+                        <img src={mascara} className="mascaraQuiz"></img>
+                        <div className="contenedorTarjeta">
+                            <div >
+                                <p className="textoQuiz">Las manos deben lavar con agua y jabon</p>
+                                <div className="contenedorInput">
+                                    <input type="radio" id="p1r1" name="quiz1" value="1" />Verdadero
                             <input type="radio" id="p1r2" name="quiz1" value="1" />Falso
                             </div>
-                        </div>
-                        <div >
-                            <p className="textoQuiz">El CoronaVirus es un chiquitito</p>
-                            <input type="radio" id="p2r1" name="quiz2" value="1" />Verdadero
+                            </div>
+                            <div >
+                                <p className="textoQuiz">El CoronaVirus es un chiquitito</p>
+                                <input type="radio" id="p2r1" name="quiz2" value="1" />Verdadero
                     <input type="radio" id="p2r2" name="quiz2" value="1" />Falso
                  </div>
-                        <div >
-                            <p className="textoQuiz">Podemos salir a la calle sin mascarilla</p>
-                            <input type="radio" id="p2r1" name="quiz3" value="1" />Verdadero
+                            <div >
+                                <p className="textoQuiz">Podemos salir a la calle sin mascarilla</p>
+                                <input type="radio" id="p2r1" name="quiz3" value="1" />Verdadero
                     <input type="radio" id="p2r2" name="quiz3" value="1" />Falso
                  </div>
-                        <div>
-                            <p className="textoQuiz">El virus no se contagia al abrazar a una persona </p>
-                            <input type="radio" id="p2r1" name="quiz4" value="1" />Verdadero
+                            <div>
+                                <p className="textoQuiz">El virus no se contagia al abrazar a una persona </p>
+                                <input type="radio" id="p2r1" name="quiz4" value="1" />Verdadero
                     <input type="radio" id="p2r2" name="quiz4" value="1" />Falso
 
                  </div>
 
-                    </div>
-                    <button onClick={prueba} className="botonEnviar" >Iniciar</button>
-                </div>) : (
+                        </div>
+                        <button onClick={prueba} className="botonEnviar" >Iniciar</button>
+                    </div>) : (
                     <QuizDos />
                 )
             }

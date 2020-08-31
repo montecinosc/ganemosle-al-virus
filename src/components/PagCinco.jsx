@@ -4,10 +4,11 @@ import PumaOK from '../img/pumaok.png'
 import '../style/PagCinco.css'
 import Header from "./Header"
 import HeaderCel from '../components/HeaderCel'
-import pdf from '../pdf/calendario.png'
-import dominoDino from '../pdf/dominoDinosaurios.pdf'
+import calendario from '../pdf/calendario-sticker.pdf'
+import colorear from '../pdf/colorear.pdf'
 import dominoHottie from '../pdf/dominoHottie.pdf'
 import Footer from '../components/Footer'
+import audio from '../audio/prueba.mp3'
 
 function PagCinco() {
 
@@ -25,6 +26,7 @@ function PagCinco() {
                         que si sigo los consejos de To-mask y Guantrini,
                         pronto le ganaremos al Coronavirus.  </div>
                     <img className="imagenDescarga" src={Jabier} />
+
                 </div>
                 <br />
                 <div className="contenedorTexto contenedorTextoDos">
@@ -40,8 +42,8 @@ function PagCinco() {
                 <p className="textoCuatro">Desafíos y entretención descargable</p>
                 <div className="contenedorTres">
                     <div className="cajaDescargaMorado"><a href={dominoHottie} download="Domino HottieHoo" className="colorBoton"> Domino</a></div>
-                    <div className="cajaDescargaNaranjo"><a href={dominoDino} download="Domino Dinosaurio" className="colorBoton"> Domino</a></div>
-                    <div className="cajaDescargaMorado" ><a href={pdf} download="Calendario" className="colorBoton"> Calendario</a></div>
+                    <div className="cajaDescargaNaranjo"><a href={colorear} download="Colorear" className="colorBoton"> Colorear</a></div>
+                    <div className="cajaDescargaMorado" ><a href={calendario} download="Calendario-Stickers" className="colorBoton"> Calendario</a></div>
 
                 </div>
             </div>
