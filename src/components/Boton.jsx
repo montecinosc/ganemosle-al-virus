@@ -9,4 +9,5 @@ import boton from '../img/botonvolver.png'
     )
 }
 
+
 export default Boton
