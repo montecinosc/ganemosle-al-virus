@@ -1,5 +1,5 @@
 .ini{
-    background: url(/static/media/iniciogav.572a681e.png);
+    background: url(../img/iniciogav.png);
     height: 99vh;
     background-size: 100%;
     margin-top: -2%;
@@ -50,7 +50,7 @@ width: 111px;
 }  
 @media screen and (max-width: 320px){
     .ini{
-        margin-bottom: 19%; 
+        margin-bottom: 19%;
     }
     .patrulla{
         margin-top: -279%;

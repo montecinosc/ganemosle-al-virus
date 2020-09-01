@@ -16,11 +16,11 @@ input[type=radio] {
     color: green;
 }
 .botonEnviar {
-    background-color:#EC8213;
+    background-color: orangered;
     border-radius: 39px;
     width: 11%;
     color: white;
-    font-size: 2em;
+    font-size: 1.3em;
     text-align: center;
     margin-left: 0%;
     margin-top: 2%;
@@ -60,7 +60,7 @@ head {
     margin-top: 6%;
 }
 .contenedorTextoQuiz{
-    margin-top: 6%;
+    margin-top: 3%;
 }
 .contenedorInput{
     margin-left: 1%;
@@ -72,7 +72,7 @@ head {
 @media screen and (max-width: 320px) {
     .mascaraQuiz{
         width: 54%;
-        margin-top: 6%;
+        margin-top: 4%;
     }
     .contenedorTarjeta {
         width: 52vh;
@@ -84,14 +84,14 @@ head {
     }
     .botonEnviar {
         width: 46%;
-        height: 8vh;
     }
     .contenedorTextoQuiz{
         margin-top: 9%;
     }
+
     .imagenQuiz{
-    width: 39%;
-    margin-top: 8%;
-    margin-bottom: -3%;
-}
+        width: 39%;
+        margin-top: 8%;
+        margin-bottom: -3%;
+    }
 }

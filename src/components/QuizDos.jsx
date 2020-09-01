@@ -1,18 +1,13 @@
 import React, { Fragment } from 'react'
-
-import "../style/quiz.css"
+import "../style/quizDos.css"
 import pumaEscudo from "../img/pumaEscudo.png"
 import jabon from "../img/jabon.png"
 const Swal = require('sweetalert2');
 //import QuizTres from "./QuizTres"
-
 function QuizDos() {
-
     let [puntaje, setPuntaje] = React.useState(0);
     const [mostrar, setMostrar] = React.useState(true);
-
     let [puntajeDos, setPuntajeDos] = React.useState(0);
-
     const [segunda, setSegunda] = React.useState();
     const quiz2 = () => {
         if (document.getElementById("p2r2").checked) {
@@ -34,7 +29,6 @@ function QuizDos() {
         })
         console.log("puntaje 2", puntaje)
         setMostrar(false)
-
     }
     const quiz3 = () => {
         if (document.getElementById("p2r2").checked) {
@@ -56,9 +50,7 @@ function QuizDos() {
         })
         console.log("puntaje 2", puntaje)
         setMostrar(false)
-
     }
-
     return (
         <Fragment>
             {mostrar === true ? (
@@ -66,54 +58,53 @@ function QuizDos() {
                     <img src={pumaEscudo} className="imagenQuiz" />
                     <div className="contenedorTarjeta">
                         <div >
-                            <p>Al toser o estornudar , debo tapar mi boca con las manos</p>
+                            <p className="textoQuiz" >Al toser o estornudar , debo tapar mi boca con las manos</p>
                             <div>
                                 <input type="radio" id="p2r1" name="quiz1" value="1" />Verdadero
                 <input type="radio" id="p2r2" name="quiz1" value="1" />Falso
                  </div>
                         </div>
                         <div >
-                            <p>Debo lavar mis manos durante 5 segundo</p>
+                            <p className="textoQuiz">Debo lavar mis manos durante 5 segundos</p>
                             <div>
                                 <input type="radio" id="p2r1" name="quiz2" value="1" />Verdadero
                 <input type="radio" id="p2r2" name="quiz2" value="1" />Falso </div>
                         </div>
                         <div >
-                            <p>debo mantener distancia de otras personas</p>
+                            <p className="textoQuiz">debo mantener distancia de otras personas</p>
                             <div>
                                 <input type="radio" id="p2r1" name="quiz3" value="1" />Verdadero
                 <input type="radio" id="p2r2" name="quiz3" value="1" />Falso </div>
                         </div>
                     </div>
                     <button onClick={quiz2} className="botonEnviar"  >Enviar</button>
-
                 </div>
             ) : (<div className="contenedorMayor">
                 <img src={jabon} className="imagenQuiz" />
                 <div className="contenedorTarjeta">
-                    <p>El virus vive dentro de una persona</p>
-                    <div>
-                        <input type="radio" id="p2r1" name="quiz1" value="1" />Verdadero
-                <input type="radio" id="p2r2" name="quiz1" value="1" />Falso </div>
-                </div>
-                <div className="contenedorTarjeta">
-                    <p>El virus esta en todo el mundo</p>
-                    <div>
-                        <input type="radio" id="p2r1" name="quiz2" value="1" />Verdadero
+                    <div>  <p className="textoQuiz">El virus vive dentro de una persona</p>
+                        <div>
+                            <input type="radio" id="p2r1" name="quiz1" value="1" />Verdadero
+                <input type="radio" id="p2r2" name="quiz1" value="1" />Falso </div> </div>
+                    <div >
+                        <p className="textoQuiz">El virus esta en todo el mundo</p>
+                        <div>
+                            <input type="radio" id="p2r1" name="quiz2" value="1" />Verdadero
                 <input type="radio" id="p2r2" name="quiz2" value="1" />Falso </div>
+                    </div>
+                    <div >
+                        <p className="textoQuiz">El virus no esta en mi colegio</p>
+                        <div>
+                            <input type="radio" id="p2r1" name="quiz3" value="1" />Verdadero
+                <input type="radio" id="p2r2" name="quiz3" value="1" />Falso
+                 </div>
+                    </div>
                 </div>
-                <div className="contenedorTarjeta">
-                    <p>El virus no esta en mi colegio</p>
-                    <div>
-                        <input type="radio" id="p2r1" name="quiz3" value="1" />Verdadero
-                <input type="radio" id="p2r2" name="quiz3" value="1" />Falso </div>
-                </div>
-
                 <button onClick={quiz3} className="botonEnviar"  >Enviar</button>
-            </div>)
+            </div>
+                )
             }
         </Fragment >
     )
 }
-
 export default QuizDos

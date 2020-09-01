@@ -6,16 +6,16 @@ import buho from "../img/buho.png"
 import QuizDos from './QuizDos'
 import mascara from '../img/mascara.png'
 import Header from '../components/Header'
+import HeaderCel from './HeaderCel'
+
+
+
 const Swal = require('sweetalert2')
-
 function Quiz() {
-
     let [puntaje, setPuntaje] = React.useState(0);
     const [mostrar, setMostrar] = React.useState(true);
-
     const prueba = () => {
         if (document.getElementById('p1r1').checked) {
-
             setPuntaje(puntaje++)
         }
         if (document.getElementById("p2r1").checked) {
@@ -27,7 +27,6 @@ function Quiz() {
         if (document.getElementById("p2r2").checked) {
             setPuntaje(puntaje++)
         }
-
         console.log("puntaje Final", puntaje)
         if (puntaje >= 2) {
             console.log("que buen puntaje ,pasas al sig nivel")
@@ -38,7 +37,6 @@ function Quiz() {
                 confirmButtonText: 'Vamos por más!',
             })
             setMostrar(false)
-
         } else {
             console.log("intentalo nuevamente")
             Swal.fire({
@@ -49,17 +47,16 @@ function Quiz() {
             })
         }
     }
-
-
     return (
         <Fragment>
-            <Header />
+            <div className="d-none d-sm-block"><Header /></div>
+            <div className="d-lg-none d-sm-block"><HeaderCel /></div>
             {mostrar === true ?
-
                 (<div className="contenedorMayor">
                     <img src={mascara} className="mascaraQuiz"></img>
                     <div className="contenedorTarjeta">
-                        <div >
+                        <div className="containerTextoQuizTodo"></div>
+                        <div className="contenedorTextoQuiz">
                             <p className="textoQuiz">Las manos deben lavar con agua y jabon</p>
                             <div className="contenedorInput">
                                 <input type="radio" id="p1r1" name="quiz1" value="1" />Verdadero
@@ -67,22 +64,20 @@ function Quiz() {
                             </div>
                         </div>
                         <div >
-                            <p>El CoronaVirus es un chiquitito</p>
-                            <input type="radio" id="p2r1" name="quiz2" value="1" />Verdadero
+                            <p className="textoQuiz">El CoronaVirus es un chiquitito</p>
+                            <input className="contenedorInput"type="radio" id="p2r1" name="quiz2" value="1" />Verdadero
                     <input type="radio" id="p2r2" name="quiz2" value="1" />Falso
                  </div>
                         <div >
-                            <p>Podemos salir a la calle sin mascarilla</p>
-                            <input type="radio" id="p2r1" name="quiz3" value="1" />Verdadero
+                            <p className="textoQuiz">Podemos salir a la calle sin mascarilla</p>
+                            <input className="contenedorInput"type="radio" id="p2r1" name="quiz3" value="1" />Verdadero
                     <input type="radio" id="p2r2" name="quiz3" value="1" />Falso
                  </div>
                         <div>
-                            <p>El virus no se contagia al abrazar a una persona </p>
-                            <input type="radio" id="p2r1" name="quiz4" value="1" />Verdadero
+                            <p className="textoQuiz">El virus no se contagia al abrazar a una persona </p>
+                            <input className="contenedorInput"type="radio" id="p2r1" name="quiz4" value="1" />Verdadero
                     <input type="radio" id="p2r2" name="quiz4" value="1" />Falso
-
                  </div>
-
                     </div>
                     <button onClick={prueba} className="botonEnviar" >Iniciar</button>
                 </div>) : (
@@ -93,5 +88,4 @@ function Quiz() {
         </Fragment >
     )
 }
-
 export default Quiz
