@@ -27,17 +27,13 @@ input[type=radio] {
     padding-top: 1%;
     padding-bottom: 1%;
     font-family: 'Montserrat', sans-serif;
-}
-
-head {
+}head {
     width: 98%;
 }
 .mascaraQuiz {
     width: 24%;
     margin: 1%;
-}
-
-.celesteF {
+}.celesteF {
     background-color: #60C9F1;
     height: 40px;
     margin-top: 8%;

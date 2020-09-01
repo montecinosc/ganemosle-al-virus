@@ -6,11 +6,7 @@ import buho from "../img/buho.png"
 import QuizDos from './QuizDos'
 import mascara from '../img/mascara.png'
 import Header from '../components/Header'
-import HeaderCel from './HeaderCel'
-
-
-
-const Swal = require('sweetalert2')
+import HeaderCel from './HeaderCel'const Swal = require('sweetalert2')
 function Quiz() {
     let [puntaje, setPuntaje] = React.useState(0);
     const [mostrar, setMostrar] = React.useState(true);

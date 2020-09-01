@@ -100,6 +100,7 @@ function QuizDos() {
                  </div>
                     </div>
                 </div>
+
                 <button onClick={quiz3} className="botonEnviar"  >Enviar</button>
             </div>
                 )

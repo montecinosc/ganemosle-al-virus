@@ -7,14 +7,8 @@ import HeaderCel from '../components/HeaderCel'
 import calendario from '../pdf/calendario-sticker.pdf'
 import colorear from '../pdf/colorear.pdf'
 import dominoHottie from '../pdf/dominoHottie.pdf'
-import Footer from '../components/Footer'
-
-function PagCinco() {
-
-    return (
-        <Fragment>
-
-            <div className="d-none d-sm-block"><Header /></div>
+import Footer from '../components/Footer'function PagCinco() {    return (
+        <Fragment>            <div className="d-none d-sm-block"><Header /></div>
             <div className="d-lg-none d-sm-block"><HeaderCel /></div>
             <div className="contenedorDescarga">
                 <div className="contenedorTexto">
@@ -41,13 +35,9 @@ function PagCinco() {
                 <div className="contenedorTres">
                     <div className="cajaDescargaMoradoUno"><a href={dominoHottie} download="Domino HottieHoo" className="colorBoton"> Dominó </a></div>
                     <div className="cajaDescargaNaranjo"><a href={colorear} download="Colorear" className="colorBoton"> Colorear</a></div>
-                    <div className="cajaDescargaMorado" ><a href={calendario} download="Calendario-Stickers" className="colorBoton"> Calendario</a></div>
-
-                </div>
+                    <div className="cajaDescargaMorado" ><a href={calendario} download="Calendario-Stickers" className="colorBoton"> Calendario</a></div>                </div>
             </div>
             <Footer />
         </Fragment>
     )
-}
-
-export default PagCinco
+}export default PagCinco

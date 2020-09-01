@@ -1,86 +1,95 @@
+
 .ini{
     background: url(../img/iniciogav.png);
     height: 99vh;
     background-size: 100%;
     margin-top: -2%;
-}  
+}
 
-.ganemosle{
-    font-family: Rounded Elegance;
+.ganemosle {
+    font-family: "Rounded Elegance";
     text-align: center;
     margin-left: 14%;
     width: 104%;
 }
 
-.aprendamos{
+.aprendamos {
     font-family: Helvetica Neue;
     text-align: center;
     margin-left: 15%;
 }
 
-.patrulla{
-   margin-top: 40%;
+.patrulla {
+    margin-top: 40%;
 }
 
-.letras{
+.letras {
     margin-top: 25%;
     margin-left: -8%;
 }
 
-h1{
+h1 {
     position: absolute;
     color: #572A99;
 }
-.dos{
+
+.dos {
     position: absolute;
     color: #572A99;
 }
-h4{
+
+h4 {
     position: absolute;
     color: #FA8102;
-    }
-.btn{
+}
+
+.btn {
     background: rgba(87, 42, 153, 0.74);
-border: 2px solid #572A99;
-box-sizing: border-box;
-box-shadow: 0px 4px 3px 2px rgba(0, 0, 0, 0.25);
-border-radius: 48px;
-margin-left: 54%;
-width: 111px;
-}  
-@media screen and (max-width: 320px){
-    .ini{
+    border: 2px solid #572A99;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 3px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 48px;
+    margin-left: 54%;
+    width: 111px;
+}
+
+@media screen and (max-width: 320px) {
+    .ini {
         margin-bottom: 19%;
     }
-    .patrulla{
-        margin-top: -279%;
-        
-     }
 
-    .letras{
+    .patrulla {
+        margin-top: -279%;
+
+    }
+
+    .letras {
         margin-top: -99%;
     }
-    .ganemosle{
+
+    .ganemosle {
         font-size: 17px;
         margin-top: -7%;
         text-align: center;
         width: 115%;
         margin-left: 1%;
     }
-    .aprendamos{
+
+    .aprendamos {
         text-align: center;
         width: 116%;
         margin-left: 1%;
         font-size: 1.2em;
         margin-top: -2%;
     }
-    .btn{
+
+    .btn {
         margin-left: 41%;
     }
-    .footerIn{
+
+    .footerIn {
         width: 100%;
         margin-top: 7%;
-        
-    }
-}  
 
+    }
+}
