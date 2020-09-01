@@ -7,28 +7,40 @@ import HeaderCel from '../components/HeaderCel'
 import calendario from '../pdf/calendario-sticker.pdf'
 import colorear from '../pdf/colorear.pdf'
 import dominoHottie from '../pdf/dominoHottie.pdf'
-import Footer from '../components/Footer'function PagCinco() {    return (
-        <Fragment>            <div className="d-none d-sm-block"><Header /></div>
+import Footer from '../components/Footer'
+import javierAudio from '../audio/jabon.mp3'
+import pumaAudio from '../audio/Pumaespuma.mp3'
+
+function PagCinco() {
+    return (
+        <Fragment>
+            <div className="d-none d-sm-block"><Header /></div>
             <div className="d-lg-none d-sm-block"><HeaderCel /></div>
             <div className="contenedorDescarga">
                 <div className="contenedorTexto">
                     <div className="colorDescarga" >
                         <p className="jabonTexto"><span className="encabezadoDos">!Hola! Soy Jabier Jabón  </span>  <br />
-                         <p className="echoDe">Echo de menos muchas cosas. Como estar con mis amigos, ir al colegio, hacer deportes
-                        y creo que eso me tiene triste, pero Puma Espuma me dijo que esto no durara para siempre y
-                        que si sigo los consejos de To-mask y Guantrini,
+                            <p className="echoDe">Echo de menos muchas cosas. Como estar con mis amigos, ir al colegio, hacer deportes
+                            y creo que eso me tiene triste, pero Puma Espuma me dijo que esto no durara para siempre y
+                            que si sigo los consejos de To-mask y Guantrini,
                         pronto le ganaremos al Coronavirus. </p></p> </div>
                     <img className="imagenDescarga" src={Jabier} />
+                    <audio src={javierAudio} controls></audio>
                 </div>
                 <br />
                 <div className="contenedorTextoDos">
-                    <div className="textoRosado"><img className="imagenPumaEspuma" src={PumaOK} /></div>
+
+                    <div className="textoRosado">
+                        <img className="imagenPumaEspuma" src={PumaOK} />
+                    </div>
+
                     <div className="colorDescargaDos" >
                         <p className="asiEs">Así es Jabier Jabon, pronto los niños tendrán la posibilidad de salir algunas horas al día y
                         podrás disfrutar de montar en bici, correr o caminar pero siempre respetando las distancias y
                         sin olvidar lavar tus manos.<br />
-                        <div className="textoTres"> ¡Recuerda!</div>
-                       <p className="seAmable">SE AMBLE , OBEDIENTE Y DISFRUTA A TU FAMILIA EN ESTA CUARENTENA</p> </p>
+                            <div className="textoTres"> ¡Recuerda!</div>
+                            <p className="seAmable">SE AMBLE , OBEDIENTE Y DISFRUTA A TU FAMILIA EN ESTA CUARENTENA</p> </p>
+                        <audio src={pumaAudio} controls></audio>
                     </div>
                 </div>
                 <p className="textoCuatro">Desafíos y entretención descargable</p>
@@ -40,4 +52,4 @@ import Footer from '../components/Footer'function PagCinco() {    return (
             <Footer />
         </Fragment>
     )
-}export default PagCinco
+} export default PagCinco

@@ -6,7 +6,8 @@ import buho from "../img/buho.png"
 import QuizDos from './QuizDos'
 import mascara from '../img/mascara.png'
 import Header from '../components/Header'
-import HeaderCel from './HeaderCel'const Swal = require('sweetalert2')
+import HeaderCel from './HeaderCel'
+const Swal = require('sweetalert2')
 function Quiz() {
     let [puntaje, setPuntaje] = React.useState(0);
     const [mostrar, setMostrar] = React.useState(true);
@@ -61,17 +62,17 @@ function Quiz() {
                         </div>
                         <div >
                             <p className="textoQuiz">El CoronaVirus es un chiquitito</p>
-                            <input className="contenedorInput"type="radio" id="p2r1" name="quiz2" value="1" />Verdadero
+                            <input className="contenedorInput" type="radio" id="p2r1" name="quiz2" value="1" />Verdadero
                     <input type="radio" id="p2r2" name="quiz2" value="1" />Falso
                  </div>
                         <div >
                             <p className="textoQuiz">Podemos salir a la calle sin mascarilla</p>
-                            <input className="contenedorInput"type="radio" id="p2r1" name="quiz3" value="1" />Verdadero
+                            <input className="contenedorInput" type="radio" id="p2r1" name="quiz3" value="1" />Verdadero
                     <input type="radio" id="p2r2" name="quiz3" value="1" />Falso
                  </div>
                         <div>
                             <p className="textoQuiz">El virus no se contagia al abrazar a una persona </p>
-                            <input className="contenedorInput"type="radio" id="p2r1" name="quiz4" value="1" />Verdadero
+                            <input className="contenedorInput" type="radio" id="p2r1" name="quiz4" value="1" />Verdadero
                     <input type="radio" id="p2r2" name="quiz4" value="1" />Falso
                  </div>
                     </div>
