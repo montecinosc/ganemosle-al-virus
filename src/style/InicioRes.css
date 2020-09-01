@@ -1,4 +1,7 @@
+@media screen and (max-width: 320px){
 .inicioRes{
-    margin-left: -3%; 
-   
+    
+    display: flex;
+    justify-content: center;
+}
 }
