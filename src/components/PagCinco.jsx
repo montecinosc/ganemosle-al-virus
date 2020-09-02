@@ -10,12 +10,14 @@ import dominoHottie from '../pdf/dominoHottie.pdf'
 import Footer from '../components/Footer'
 import javierAudio from '../audio/jabon.mp3'
 import pumaAudio from '../audio/Pumaespuma.mp3'
+import Boton from './Boton'
 
 function PagCinco() {
     return (
         <Fragment>
             <div className="d-none d-sm-block"><Header /></div>
             <div className="d-lg-none d-sm-block"><HeaderCel /></div>
+            <Boton/>
             <div className="contenedorDescarga">
                 <div className="contenedorTexto">
                     <div className="colorDescarga" >

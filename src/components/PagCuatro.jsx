@@ -7,16 +7,15 @@ import mascara from '../img/mascara.png'
 import jabon from '../img/jabon.png'
 import Footer from '../components/Footer'
 import HeaderCel from '../components/HeaderCel'
-import {
-    BrowserRouter as Router,
-    Link,
-} from "react-router-dom";
+import {Link} from "react-router-dom";
+import Boton from './Boton'
 
 function PagCuatro() {
     return (
         <Fragment>
             <div className="d-none d-sm-block"><Header /></div>
             <div className="d-lg-none d-sm-block"><HeaderCel /></div>
+            <Boton/>
             <div className="container">
                 <div className="instrucciones row">
                     <div className="bloqueCeleste .col- col-xs-12 col-md-5  d-flex flex-column align-items-center">
@@ -57,7 +56,7 @@ function PagCuatro() {
                             </div>
 
                             <div className="textJugar">
-                                <p className="aJugar">!A JUGAR!</p>
+                            <Link className="aJugar" to="./game">!A JUGAR!</Link>
                             </div>
 
                         </div>

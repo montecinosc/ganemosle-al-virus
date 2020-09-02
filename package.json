@@ -9,12 +9,16 @@
     "download-pdf": "^0.1.6",
     "file-downloader": "^2.1.0",
     "js-file-downloader": "^1.1.10",
+    "lodash.shuffle": "^4.2.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-file-download": "^0.3.5",
+    "react-flipcard": "^0.2.1",
+    "react-flipcard-2": "^0.3.2",
     "react-router": "^5.2.0",
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.3",
+    "react-shuffle": "^2.1.0",
     "sweetalert2": "^9.17.1"
   },
   "scripts": {

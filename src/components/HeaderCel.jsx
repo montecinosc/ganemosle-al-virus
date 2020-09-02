@@ -4,12 +4,15 @@ import header from '../img/Header.png'
 import Boton from './Boton'
 import Cel from '../img/headercel.png'
 import "../style/headerCel.css"
+import {Link} from "react-router-dom";
 
 
 function HeaderCel() {
     return (
         <div className="headCel">
-             <img className="headerCel" alt="headCel" src={Cel}/>
+            <Link  to="./home">
+            <img className="headerCel" alt="headCel" src={Cel} /> 
+            </Link >
         </div>
     )
 }
