@@ -11,7 +11,7 @@ function PagSeis() {
         <div>
        <div className="d-none d-sm-block"><Header/></div>
        <div className="d-lg-none d-sm-block"><HeaderCel/></div>
-       <Boton/>
+       <div className="d-none d-sm-block"><Boton/></div>
             <div className="container mt-5">
         
                 <div className="contenedorVideos row">
