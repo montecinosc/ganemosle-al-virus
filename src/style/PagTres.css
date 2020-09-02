@@ -1,23 +1,47 @@
-.virus{
+.virus {
     height: 70%;
     width: 100vw;
     z-index: -1;
-    }
-.footer{
-    width: 100%;
-}    
-@media screen and (max-width: 320px){
-.colorFondo{
-    background-color: #FF9E3D;
-    width: 100%;
 }
 
 .footer {
-    width: 100%; 
+    width: 100%;
 }
-.pagTres{
-width: 100%;
-    display: flex;
-    justify-content: center;
+
+.audioUno {
+    position: absolute;
+    margin-top: 88px;
+    left: 144px;
 }
+
+.audioDos {
+    position: absolute;
+    margin-left: 841px;
+    margin-top: 357px;
+}
+
+@media screen and (max-width: 320px) {
+    .colorFondo {
+        background-color: #FF9E3D;
+        width: 100%;
+    }
+
+    .footer {
+        width: 100%;
+    }
+
+    .pagTres {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .audioUno {
+        display: none;
+    }
+
+    .audioDos {
+        display: none;
+    }
+
 }

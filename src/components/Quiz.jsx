@@ -30,9 +30,8 @@ function Quiz() {
         if (puntaje >= 2) {
             console.log("que buen puntaje ,pasas al sig nivel")
             Swal.fire({
-                title: 'Muy bien',
-                text: 'Pasaste a la segunda etapa',
-                icon: 'success',
+                title: 'Pasaste al segundo nivel',
+                imageUrl: 'https://media.giphy.com/media/Zdkt6mHKDGdPFqJ9g6/giphy.gif',
                 confirmButtonText: 'Vamos por más!',
             })
             setMostrar(false)
@@ -50,7 +49,7 @@ function Quiz() {
         <Fragment>
             <div className="d-none d-sm-block"><Header /></div>
             <div className="d-lg-none d-sm-block"><HeaderCel /></div>
-            <div className="d-none d-sm-block"><Boton/></div>
+            <div className="d-none d-sm-block"><Boton /></div>
             {mostrar === true ?
                 (<div className="contenedorMayor">
                     <img src={mascara} className="mascaraQuiz"></img>
@@ -59,7 +58,7 @@ function Quiz() {
                         <div className="contenedorTextoQuiz">
                             <p className="textoQuiz">Las manos deben lavar con agua y jabón</p>
                             <div className="contenedorInput">
-                                <input type="radio" id="p1r1" name="quiz1" value="1"/>Verdadero
+                                <input type="radio" id="p1r1" name="quiz1" value="1" />Verdadero
                             <input type="radio" id="p1r2" name="quiz1" value="1" />Falso
                             </div>
                         </div>
