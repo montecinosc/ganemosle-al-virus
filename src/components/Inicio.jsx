@@ -30,10 +30,11 @@ function Inicio() {
                         <Link className="col-md-4 offset-md-6 btn text-white btn-lg" to ="/Home" exact>Entrar</Link>
                     </div>
                 </div>
+             </div>
             </div>
+            <Footer/>
         </div>
-           <Footer/>
-           </div>
+         
     )
 }
 
