@@ -6,6 +6,7 @@ import Counter from './Counter.jsx';
 import Header from './Header';
 import HeaderCel from '../components/HeaderCel';
 import Footer from "./Footer"
+import Boton from './Boton'
 
 class MemorizeEntryPoint extends Component {
   state = {
@@ -128,6 +129,7 @@ class MemorizeEntryPoint extends Component {
       <Fragment>
         <div className="d-none d-sm-block"><Header /></div>
         <div className="d-lg-none d-sm-block"><HeaderCel /></div>
+        <Boton/>
       <div className="board">
         <Counter
           triesNumber={this.state.triesNumber}

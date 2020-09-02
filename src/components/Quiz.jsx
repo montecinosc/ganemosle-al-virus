@@ -7,6 +7,8 @@ import QuizDos from './QuizDos'
 import mascara from '../img/mascara.png'
 import Header from '../components/Header'
 import HeaderCel from './HeaderCel'
+import Boton from './Boton'
+
 const Swal = require('sweetalert2')
 function Quiz() {
     let [puntaje, setPuntaje] = React.useState(0);
@@ -48,6 +50,7 @@ function Quiz() {
         <Fragment>
             <div className="d-none d-sm-block"><Header /></div>
             <div className="d-lg-none d-sm-block"><HeaderCel /></div>
+            <Boton/>
             {mostrar === true ?
                 (<div className="contenedorMayor">
                     <img src={mascara} className="mascaraQuiz"></img>

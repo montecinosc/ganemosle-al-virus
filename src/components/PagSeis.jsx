@@ -4,12 +4,14 @@ import '../style/PagSeis.css'
 import Footer from "./Footer"
 import Header from "./Header"
 import HeaderCel from '../components/HeaderCel'
+import Boton from './Boton'
 
 function PagSeis() {
     return (
         <div>
        <div className="d-none d-sm-block"><Header/></div>
        <div className="d-lg-none d-sm-block"><HeaderCel/></div>
+       <Boton/>
             <div className="container mt-5">
         
                 <div className="contenedorVideos row">
