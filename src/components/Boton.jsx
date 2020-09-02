@@ -4,7 +4,7 @@ import boton from '../img/botonvolver.png'
  function Boton() {
     return (
         <div>
-            <button> <img src={boton}></img></button>
+            <img className="btn" src={boton}/>
         </div>
     )
 }

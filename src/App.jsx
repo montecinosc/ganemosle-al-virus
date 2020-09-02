@@ -15,7 +15,7 @@ import PagSeis from './components/PagSeis';
 import Quiz from './components/Quiz';
 import Footer from './components/Footer'
 import PagCinco from './components/PagCinco';
-import Game from './components/Game';
+import Game from './components/MemorizeEntryPoint.jsx';
 
 function App() {
   return (
@@ -41,7 +41,7 @@ function App() {
             <Quiz />
           </Route>
           <Route path="/Game">
-            <Game />
+            <Game/>
           </Route>
           <Route path="/">
             <Inicio />
