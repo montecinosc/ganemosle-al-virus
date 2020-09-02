@@ -25,13 +25,15 @@ function PagCinco() {
                             que si sigo los consejos de To-mask y Guantrini,
                         pronto le ganaremos al Coronavirus. </p></p> </div>
                     <img className="imagenDescarga" src={Jabier} />
-                    <audio src={javierAudio} controls></audio>
+
                 </div>
+                <audio src={javierAudio} controls></audio>
                 <br />
                 <div className="contenedorTextoDos">
 
                     <div className="textoRosado">
                         <img className="imagenPumaEspuma" src={PumaOK} />
+
                     </div>
 
                     <div className="colorDescargaDos" >
@@ -40,9 +42,10 @@ function PagCinco() {
                         sin olvidar lavar tus manos.<br />
                             <div className="textoTres"> ¡Recuerda!</div>
                             <p className="seAmable">SE AMBLE , OBEDIENTE Y DISFRUTA A TU FAMILIA EN ESTA CUARENTENA</p> </p>
-                        <audio src={pumaAudio} controls></audio>
+
                     </div>
                 </div>
+                <audio src={pumaAudio} controls></audio>
                 <p className="textoCuatro">Desafíos y entretención descargable</p>
                 <div className="contenedorTres">
                     <div className="cajaDescargaMoradoUno"><a href={dominoHottie} download="Domino HottieHoo" className="colorBoton"> Dominó </a></div>
