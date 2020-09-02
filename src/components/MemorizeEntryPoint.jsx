@@ -129,7 +129,7 @@ class MemorizeEntryPoint extends Component {
       <Fragment>
         <div className="d-none d-sm-block"><Header /></div>
         <div className="d-lg-none d-sm-block"><HeaderCel /></div>
-        <Boton/>
+        <div className="d-none d-sm-block"><Boton/></div>
       <div className="board">
         <Counter
           triesNumber={this.state.triesNumber}

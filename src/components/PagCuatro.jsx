@@ -15,7 +15,7 @@ function PagCuatro() {
         <Fragment>
             <div className="d-none d-sm-block"><Header /></div>
             <div className="d-lg-none d-sm-block"><HeaderCel /></div>
-            <Boton/>
+            <div className="d-none d-sm-block"><Boton/></div>
             <div className="container">
                 <div className="instrucciones row">
                     <div className="bloqueCeleste .col- col-xs-12 col-md-5  d-flex flex-column align-items-center">
