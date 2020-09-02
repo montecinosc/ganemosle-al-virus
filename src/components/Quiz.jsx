@@ -54,9 +54,9 @@ function Quiz() {
                     <div className="contenedorTarjeta">
                         <div className="containerTextoQuizTodo"></div>
                         <div className="contenedorTextoQuiz">
-                            <p className="textoQuiz">Las manos deben lavar con agua y jabon</p>
+                            <p className="textoQuiz">Las manos deben lavar con agua y jabón</p>
                             <div className="contenedorInput">
-                                <input type="radio" id="p1r1" name="quiz1" value="1" />Verdadero
+                                <input type="radio" id="p1r1" name="quiz1" value="1"/>Verdadero
                             <input type="radio" id="p1r2" name="quiz1" value="1" />Falso
                             </div>
                         </div>
