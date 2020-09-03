@@ -13,7 +13,7 @@ function Juego() {
         <div className="d-lg-none d-sm-block"><HeaderCel /></div>
         <div className="d-none d-sm-block"><Boton/></div>
         <div>
-      <iframe src="https://nadia080290.github.io/memorice/" title="Juego"></iframe>
+      <iframe className= "juegoMemorice" src="https://nadia080290.github.io/memorice/" title="Juego"></iframe>
     </div>
     <Footer/>
     </Fragment>
