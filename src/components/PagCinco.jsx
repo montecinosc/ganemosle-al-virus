@@ -17,7 +17,7 @@ function PagCinco() {
         <Fragment>
             <div className="d-none d-sm-block"><Header /></div>
             <div className="d-lg-none d-sm-block"><HeaderCel /></div>
-            <div className="d-none d-sm-block"><Boton/></div>
+            <div className="d-none d-sm-block"><Boton /></div>
             <div className="contenedorDescarga">
                 <div className="contenedorTexto">
                     <div className="colorDescarga" >
@@ -47,7 +47,7 @@ function PagCinco() {
 
                     </div>
                 </div>
-                <audio src={pumaAudio} controls></audio>
+                <audio src={pumaAudio}></audio>
                 <p className="textoCuatro">Desafíos y entretención descargable</p>
                 <div className="contenedorTres">
                     <div className="cajaDescargaMoradoUno"><a href={dominoHottie} download="Domino HottieHoo" className="colorBoton"> Dominó </a></div>
