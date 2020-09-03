@@ -16,6 +16,7 @@ import Quiz from './components/Quiz';
 import Footer from './components/Footer'
 import PagCinco from './components/PagCinco';
 import Game from './components/MemorizeEntryPoint.jsx';
+import Juego from './components/Juego'
 
 function App() {
   return (
@@ -42,6 +43,9 @@ function App() {
           </Route>
           <Route path="/Game">
             <Game/>
+          </Route>
+          <Route path="/Juego">
+            <Juego/>
           </Route>
           <Route path="/">
             <Inicio />

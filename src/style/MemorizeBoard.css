@@ -1,8 +1,7 @@
 .board {
     background-color: #72b9ec3b;
-   /*  border: 2px solid black; */
     width: 64vw;
-    min-height: 50vh;
+    min-height: 76vh;
     margin: 2rem auto;
   }
   

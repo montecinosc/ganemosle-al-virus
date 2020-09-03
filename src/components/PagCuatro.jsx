@@ -56,7 +56,7 @@ function PagCuatro() {
                             </div>
 
                             <div className="textJugar">
-                            <Link className="aJugar" to="./game">!A JUGAR!</Link>
+                            <Link className="aJugar" to="./juego">!A JUGAR!</Link>
                             </div>
 
                         </div>
