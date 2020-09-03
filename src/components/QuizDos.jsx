@@ -81,7 +81,7 @@ function QuizDos() {
     }
     return (
         <Fragment>
-            {segunda === false ? <Home /> :
+            {segunda === false ? <Redirect push to="/home" /> :
                 mostrar === true ? (
                     <div className="contenedorMayor">
                         <img src={pumaEscudo} className="imagenQuiz" />
@@ -90,20 +90,20 @@ function QuizDos() {
                                 <p className="textoQuiz" >Al toser o estornudar , debo tapar mi boca con las manos</p>
                                 <div>
                                     <input type="radio" id="p2r1" name="quiz1" value="1" />Verdadero
-                <input type="radio" id="p2r2" name="quiz1" value="1" />Falso
-                 </div>
+                                      <input type="radio" id="p2r2" name="quiz1" value="1" />Falso
+                                 </div>
                             </div>
                             <div >
                                 <p className="textoQuiz">Debo lavar mis manos durante 5 segundos</p>
                                 <div>
-                                    <input type="radio" id="p2r1" name="quiz2" value="1" />Verdadero
-                <input type="radio" id="p2r2" name="quiz2" value="1" />Falso </div>
+                                    <input type="radio" id="p2r1" name="quiz2" value="2" />Verdadero
+                <input type="radio" id="p2r2" name="quiz2" value="2" />Falso </div>
                             </div>
                             <div >
                                 <p className="textoQuiz">debo mantener distancia de otras personas</p>
                                 <div>
-                                    <input type="radio" id="p2r1" name="quiz3" value="1" />Verdadero
-                <input type="radio" id="p2r2" name="quiz3" value="1" />Falso </div>
+                                    <input type="radio" id="p2r1" name="quiz3" value="3" />Verdadero
+                <input type="radio" id="p2r2" name="quiz3" value="3" />Falso </div>
                             </div>
                         </div>
                         <button onClick={quiz2} className="botonEnviar"  >Enviar</button>
@@ -113,20 +113,23 @@ function QuizDos() {
                     <div className="contenedorTarjeta">
                         <div>  <p className="textoQuiz">El virus vive dentro de una persona</p>
                             <div>
-                                <input type="radio" id="p4r1" name="quiz1" value="1" />Verdadero
-                <input type="radio" id="p4r2" name="quiz1" value="1" />Falso </div> </div>
+                                <input type="radio" id="p4r1" name="quiz4" value="1" />Verdadero
+                             <input type="radio" id="p4r2" name="quiz5" value="1" />Falso
+                            </div>
+                        </div>
                         <div >
                             <p className="textoQuiz">El virus esta en todo el mundo</p>
                             <div>
-                                <input type="radio" id="p5r1" name="quiz2" value="1" />Verdadero
-                <input type="radio" id="p5r2" name="quiz2" value="1" />Falso </div>
+                                <input type="radio" id="p5r1" name="quiz6" value="2" />Verdadero
+                            <input type="radio" id="p5r2" name="quiz7" value="1" />Falso
+                            </div>
                         </div>
                         <div >
                             <p className="textoQuiz">El virus no esta en mi colegio</p>
                             <div>
-                                <input type="radio" id="p6r1" name="quiz3" value="1" />Verdadero
-                <input type="radio" id="p6r2" name="quiz3" value="1" />Falso
-                 </div>
+                                <input type="radio" id="p6r1" name="quiz8" value="3" />Verdadero
+                                <input type="radio" id="p6r2" name="quiz9" value="1" />Falso
+                            </div>
                         </div>
                     </div>
 
