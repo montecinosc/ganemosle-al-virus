@@ -15,8 +15,8 @@ function PagTres() {
       <div className="corona fondo ">
         <div className="d-none d-sm-block"><Header /></div>
         <div className="d-lg-none d-sm-block"><HeaderCel /></div>
-        <audio src={cuentoUno} controls className="audioUno audioResUno"></audio>
-        <audio src={cuentoDos} controls className="audioDos"></audio>
+        {/* <audio src={cuentoUno} controls className="audioUno audioResUno"></audio>
+        <audio src={cuentoDos} controls className="audioDos"></audio>*/}
         <div className="d-none d-sm-block"><Boton /></div>
         <div className="colorFondo d-lg-none d-sm-block"><PagTresRes /></div>
         <img className="virus d-none d-sm-block" alt="coro" src={corona} />

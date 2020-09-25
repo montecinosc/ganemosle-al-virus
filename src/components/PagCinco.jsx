@@ -47,7 +47,7 @@ function PagCinco() {
 
                     </div>
                 </div>
-                <audio src={pumaAudio}></audio>
+                <audio src={pumaAudio} controls></audio>
                 <p className="textoCuatro">Desafíos y entretención descargable</p>
                 <div className="contenedorTres">
                     <div className="cajaDescargaMoradoUno"><a href={dominoHottie} download="Domino HottieHoo" className="colorBoton"> Dominó </a></div>
